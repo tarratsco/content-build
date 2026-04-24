@@ -1,0 +1,145 @@
+{
+  "_comment": "Sidebar navigation configuration for VA Form 10-2850e pages. Used by content-build Metalsmith to render the left-rail navigation on static content pages adjacent to the React form application.",
+
+  "sectionTitle": "VHA Clinical Position Application",
+
+  "links": [
+    {
+      "label": "About VA Form 10-2850e",
+      "path": "/health-care/professional-employment/apply-for-clinical-position/10-2850e",
+      "ariaLabel": "About VA Form 10-2850e — VHA Clinical Position Application",
+      "isRootLink": true
+    },
+    {
+      "label": "Start your application",
+      "path": "/health-care/professional-employment/apply-for-clinical-position/10-2850e",
+      "ariaLabel": "Start VA Form 10-2850e application",
+      "isCallToAction": true
+    },
+    {
+      "label": "Help and FAQ",
+      "path": "/health-care/professional-employment/apply-for-clinical-position/10-2850e/help",
+      "ariaLabel": "Help and frequently asked questions for VA Form 10-2850e"
+    }
+  ],
+
+  "relatedLinksTitle": "Related forms",
+
+  "relatedLinks": [
+    {
+      "label": "VA Form 10-2850 — Physicians and Dentists",
+      "path": "/find-forms/about-form-10-2850",
+      "ariaLabel": "VA Form 10-2850 — Application for Physicians and Dentists",
+      "isExternal": false
+    },
+    {
+      "label": "VA Form 10-2850a — Nurses",
+      "path": "/find-forms/about-form-10-2850a",
+      "ariaLabel": "VA Form 10-2850a — Application for Nurses",
+      "isExternal": false
+    },
+    {
+      "label": "VA Form 10-2850c — Associated Health Occupations",
+      "path": "/find-forms/about-form-10-2850c",
+      "ariaLabel": "VA Form 10-2850c — Application for Associated Health Occupations",
+      "isExternal": false
+    },
+    {
+      "label": "Find a VA Medical Center",
+      "path": "/find-locations",
+      "ariaLabel": "Find a VA Medical Center location",
+      "isExternal": false
+    },
+    {
+      "label": "VA Careers on USAJOBS",
+      "path": "https://www.usajobs.gov/Search/Results?a=VA",
+      "ariaLabel": "Search VA clinical positions on USAJOBS",
+      "isExternal": true,
+      "externalLinkNote": "Opens in a new tab"
+    }
+  ],
+
+  "breadcrumbs": [
+    {
+      "name": "Home",
+      "path": "/"
+    },
+    {
+      "name": "Health care",
+      "path": "/health-care"
+    },
+    {
+      "name": "Professional employment",
+      "path": "/health-care/professional-employment"
+    },
+    {
+      "name": "Apply for a clinical position",
+      "path": "/health-care/professional-employment/apply-for-clinical-position/10-2850e"
+    }
+  ],
+
+  "formStepNavigation": {
+    "_comment": "Chapter/step labels used by the VA.gov segmented progress indicator (stepper) component inside the React form. These labels must match the chapter headings used in vets-website form config. They are documented here for content review and consistency.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "label": "Applicant information",
+        "ariaLabel": "Step 1 of 8: Applicant information"
+      },
+      {
+        "stepNumber": 2,
+        "label": "Licensure",
+        "ariaLabel": "Step 2 of 8: Licensure"
+      },
+      {
+        "stepNumber": 3,
+        "label": "Education and training",
+        "ariaLabel": "Step 3 of 8: Education and training"
+      },
+      {
+        "stepNumber": 4,
+        "label": "Employment history",
+        "ariaLabel": "Step 4 of 8: Employment history"
+      },
+      {
+        "stepNumber": 5,
+        "label": "Adverse history",
+        "ariaLabel": "Step 5 of 8: Adverse history"
+      },
+      {
+        "stepNumber": 6,
+        "label": "Supporting documents",
+        "ariaLabel": "Step 6 of 8: Supporting documents"
+      },
+      {
+        "stepNumber": 7,
+        "label": "Appointment details",
+        "ariaLabel": "Step 7 of 8: Appointment details"
+      },
+      {
+        "stepNumber": 8,
+        "label": "Review and submit",
+        "ariaLabel": "Step 8 of 8: Review and submit"
+      }
+    ]
+  },
+
+  "pageMetadata": {
+    "introduction": {
+      "path": "/health-care/professional-employment/apply-for-clinical-position/10-2850e",
+      "title": "Apply for a VHA Clinical Position (VA Form 10-2850e)",
+      "metaTitle": "Apply for a VHA Clinical Position | VA Form 10-2850e | VA.gov",
+      "metaDescription": "Use VA Form 10-2850e to apply for a clinical healthcare professional position at a VA Medical Center. Complete this form to begin the credentialing and privileging process.",
+      "ogTitle": "Apply for a VHA Clinical Position — VA Form 10-2850e",
+      "ogDescription": "Use VA Form 10-2850e to apply for a clinical position at a VA Medical Center. Start the credentialing process online.",
+      "canonicalUrl": "https://www.va.gov/health-care/professional-employment/apply-for-clinical-position/10-2850e"
+    },
+    "help": {
+      "path": "/health-care/professional-employment/apply-for-clinical-position/10-2850e/help",
+      "title": "Help with VA Form 10-2850e — VHA Clinical Position Application",
+      "metaTitle": "Help with VA Form 10-2850e | VA.gov",
+      "metaDescription": "Get answers to common questions about VA Form 10-2850e. Find help with completing the form, document uploads, electronic signatures, and what happens after you submit.",
+      "canonicalUrl": "https://www.va.gov/health-care/professional-employment/apply-for-clinical-position/10-2850e/help"
+    }
+  }
+}

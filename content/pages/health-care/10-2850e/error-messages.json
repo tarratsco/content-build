@@ -1,0 +1,347 @@
+{
+  "_comment": "Error message strings for VA Form 10-2850e — VHA Clinical Position Application. All messages follow VA.gov plain language guidelines: active voice, action-oriented, specific about what went wrong and what to do next. ⚠️ Verify all messages against final form requirements before production launch.",
+
+  "fieldValidation": {
+
+    "applicantType": {
+      "required": "Select the type of application you are submitting."
+    },
+
+    "occupationalCategory": {
+      "required": "Select your primary professional occupation."
+    },
+
+    "lastName": {
+      "required": "Enter your last name.",
+      "pattern": "Enter a valid last name using only letters, hyphens, apostrophes, and spaces.",
+      "maxLength": "Last name must be 50 characters or fewer."
+    },
+
+    "firstName": {
+      "required": "Enter your first name.",
+      "pattern": "Enter a valid first name using only letters, hyphens, apostrophes, and spaces.",
+      "maxLength": "First name must be 50 characters or fewer."
+    },
+
+    "middleName": {
+      "maxLength": "Middle name must be 50 characters or fewer."
+    },
+
+    "dateOfBirth": {
+      "required": "Enter your date of birth.",
+      "invalidDate": "Enter a valid date of birth. Check that the month, day, and year are correct.",
+      "invalidMonth": "Enter a valid month (1–12).",
+      "invalidDay": "Enter a valid day for the month you selected.",
+      "invalidYear": "Enter a valid year between 1900 and the current year.",
+      "futureDate": "Date of birth can't be in the future.",
+      "tooYoung": "You must be at least 18 years old to submit this application."
+    },
+
+    "ssn": {
+      "required": "Enter your Social Security number.",
+      "pattern": "Enter a valid 9-digit Social Security number. Example: 123-45-6789.",
+      "format": "Enter your Social Security number in the format XXX-XX-XXXX."
+    },
+
+    "cityOfBirth": {
+      "required": "Enter your city of birth.",
+      "maxLength": "City of birth must be 100 characters or fewer."
+    },
+
+    "stateCountryOfBirth": {
+      "required": "Select your state or country of birth."
+    },
+
+    "homeAddress": {
+      "streetRequired": "Enter your home street address.",
+      "streetMaxLength": "Street address must be 100 characters or fewer.",
+      "cityRequired": "Enter your city.",
+      "stateRequired": "Select your state.",
+      "zipRequired": "Enter your ZIP code.",
+      "zipPattern": "Enter a valid ZIP code. Use 5 digits (12345) or 9 digits with a hyphen (12345-6789)."
+    },
+
+    "mailingAddress": {
+      "streetRequired": "Enter your mailing street address.",
+      "cityRequired": "Enter your mailing city.",
+      "stateRequired": "Select your mailing state.",
+      "zipRequired": "Enter your mailing ZIP code.",
+      "zipPattern": "Enter a valid ZIP code. Use 5 digits (12345) or 9 digits with a hyphen (12345-6789)."
+    },
+
+    "primaryPhone": {
+      "required": "Enter your primary phone number.",
+      "pattern": "Enter a valid 10-digit U.S. phone number. Example: 202-555-0100."
+    },
+
+    "alternatePhone": {
+      "pattern": "Enter a valid 10-digit U.S. phone number. Example: 202-555-0100."
+    },
+
+    "professionalEmail": {
+      "required": "Enter your professional email address.",
+      "pattern": "Enter a valid email address. Example: name@organization.org."
+    },
+
+    "citizenshipStatus": {
+      "required": "Select your citizenship or work authorization status."
+    },
+
+    "visaType": {
+      "required": "Enter your visa or work authorization type."
+    },
+
+    "veteranStatus": {
+      "required": "Tell us whether you are a Veteran."
+    },
+
+    "licensure": {
+      "licenseTypeRequired": "Select the type of professional license.",
+      "issuingStateRequired": "Select the state or jurisdiction that issued this license.",
+      "licenseNumberRequired": "Enter the license number.",
+      "licenseNumberPattern": "Enter a valid license number using only letters, numbers, and hyphens.",
+      "licenseNumberMaxLength": "License number must be 50 characters or fewer.",
+      "issueDateRequired": "Enter the date this license was issued.",
+      "issueDateInvalid": "Enter a valid issue date. Check that the month, day, and year are correct.",
+      "issueDateFuture": "Issue date can't be in the future.",
+      "expirationDateInvalid": "Enter a valid expiration date. Check that the month, day, and year are correct.",
+      "expirationBeforeIssue": "Expiration date must be after the issue date.",
+      "expirationExpired": "This license appears to have expired. Verify the expiration date, or contact the VAMC HR office about your license status.",
+      "licenseStatusRequired": "Select the current status of this license.",
+      "restrictionExplanationRequired": "Explain the restriction or non-active status of this license.",
+      "restrictionExplanationMinLength": "Your explanation must be at least 10 characters.",
+      "restrictionExplanationMaxLength": "Your explanation must be 2,000 characters or fewer.",
+      "atLeastOneLicenseRequired": "Add at least one professional license before continuing."
+    },
+
+    "boardCertification": {
+      "certifyingBoardRequired": "Select the certifying board or organization.",
+      "certifyingBoardOtherRequired": "Enter the name of the certifying organization.",
+      "specialtyRequired": "Enter the specialty or subspecialty certified.",
+      "specialtyMaxLength": "Specialty must be 200 characters or fewer.",
+      "certificationNumberMaxLength": "Certification number must be 50 characters or fewer.",
+      "initialDateRequired": "Enter the date of initial certification.",
+      "initialDateInvalid": "Enter a valid initial certification date.",
+      "initialDateFuture": "Initial certification date can't be in the future.",
+      "expirationDateInvalid": "Enter a valid expiration or recertification date.",
+      "certificationStatusRequired": "Select the current status of this certification.",
+      "lapseExplanationRequired": "Explain why this certification lapsed or was revoked.",
+      "lapseExplanationMaxLength": "Your explanation must be 1,000 characters or fewer."
+    },
+
+    "deaRegistration": {
+      "applicableRequired": "Tell us whether you hold or need a DEA registration.",
+      "deaNumberRequired": "Enter your DEA registration number.",
+      "deaNumberPattern": "Enter a valid DEA number. DEA numbers are 2 letters followed by 7 digits. Example: AB1234567.",
+      "schedulesRequired": "Select at least one controlled substance schedule authorized under your DEA registration.",
+      "issueDateRequired": "Enter your DEA registration issue date.",
+      "issueDateInvalid": "Enter a valid DEA issue date.",
+      "expirationDateRequired": "Enter your DEA registration expiration date.",
+      "expirationDateInvalid": "Enter a valid DEA expiration date.",
+      "deaExpiringSoon": "Your DEA registration is expiring within 90 days. Renew your registration before you start VA clinical duties.",
+      "deaExpired": "Your DEA registration has expired. Contact the DEA to renew before starting VA clinical duties.",
+      "stateRequired": "Enter the state or states where your DEA registration is valid."
+    },
+
+    "education": {
+      "institutionNameRequired": "Enter the name of your degree-granting institution.",
+      "institutionNameMaxLength": "Institution name must be 200 characters or fewer.",
+      "degreeTypeRequired": "Select the degree you earned.",
+      "fieldOfStudyRequired": "Enter your field of study or major.",
+      "fieldOfStudyMaxLength": "Field of study must be 200 characters or fewer.",
+      "graduationDateRequired": "Enter your graduation date.",
+      "graduationDateInvalid": "Enter a valid graduation date.",
+      "graduationDateFuture": "Graduation date can't be in the future.",
+      "institutionCityRequired": "Enter the city where your institution is located.",
+      "institutionStateRequired": "Select the state where your institution is located."
+    },
+
+    "postgraduateTraining": {
+      "trainingTypeRequired": "Select the type of postgraduate training.",
+      "programNameRequired": "Enter the name of the training program.",
+      "programNameMaxLength": "Program name must be 200 characters or fewer.",
+      "sponsoringInstitutionRequired": "Enter the name of the sponsoring institution.",
+      "sponsoringInstitutionMaxLength": "Institution name must be 200 characters or fewer.",
+      "specialtyRequired": "Enter the specialty or focus area of this training.",
+      "startDateRequired": "Enter the training start date.",
+      "startDateInvalid": "Enter a valid training start date.",
+      "startDateFuture": "Training start date can't be in the future.",
+      "endDateInvalid": "Enter a valid training end date.",
+      "endDateBeforeStart": "Training end date must be after the start date.",
+      "completionStatusRequired": "Tell us whether you completed this training program.",
+      "nonCompletionExplanationRequired": "Explain why you didn't complete this training program.",
+      "nonCompletionExplanationMinLength": "Your explanation must be at least 10 characters.",
+      "nonCompletionExplanationMaxLength": "Your explanation must be 1,000 characters or fewer."
+    },
+
+    "employmentHistory": {
+      "employerNameRequired": "Enter the employer or facility name.",
+      "employerNameMaxLength": "Employer name must be 200 characters or fewer.",
+      "employerStreetRequired": "Enter the employer's street address.",
+      "employerCityRequired": "Enter the employer's city.",
+      "employerStateRequired": "Select the employer's state.",
+      "positionTitleRequired": "Enter your position or job title.",
+      "positionTitleMaxLength": "Position title must be 200 characters or fewer.",
+      "startDateRequired": "Enter your start date at this employer.",
+      "startDateInvalid": "Enter a valid start date.",
+      "startDateFuture": "Employment start date can't be in the future.",
+      "endDateInvalid": "Enter a valid end date.",
+      "endDateBeforeStart": "End date must be after the start date.",
+      "reasonForLeavingMaxLength": "Reason for leaving must be 500 characters or fewer.",
+      "atLeastOneEntryRequired": "Add at least one employment entry before continuing.",
+      "incompleteHistoryWarning": "Your employment history covers fewer than 10 years. Make sure all positions from the past 10 years are listed, or explain any gaps using the gap explanation fields."
+    },
+
+    "employmentGap": {
+      "explanationRequired": "Explain what you were doing during this employment gap.",
+      "explanationMinLength": "Your explanation must be at least 10 characters.",
+      "explanationMaxLength": "Your explanation must be 1,000 characters or fewer."
+    },
+
+    "references": {
+      "lastNameRequired": "Enter the reference's last name.",
+      "firstNameRequired": "Enter the reference's first name.",
+      "titleRequired": "Enter the reference's professional title and credentials.",
+      "institutionRequired": "Enter the institution or organization where this reference works.",
+      "phoneRequired": "Enter the reference's phone number.",
+      "phonePattern": "Enter a valid 10-digit U.S. phone number for this reference.",
+      "emailRequired": "Enter the reference's email address.",
+      "emailPattern": "Enter a valid email address for this reference.",
+      "relationshipRequired": "Select this reference's relationship to you.",
+      "yearsKnownRequired": "Enter the number of years you have known this reference.",
+      "yearsKnownMin": "Years known must be 0 or more.",
+      "yearsKnownMax": "Years known must be 60 or fewer.",
+      "minimumReferencesRequired": "Add at least 3 professional references before continuing.",
+      "personalReferenceWarning": "Professional references should be colleagues, supervisors, or clinical peers — not family members or personal friends."
+    },
+
+    "adverseHistory": {
+      "licensureActionRequired": "Tell us whether any licensing board has ever taken adverse action against your license.",
+      "licensureActionTypeRequired": "Select the type of adverse action.",
+      "licensureActionStateRequired": "Select the state or jurisdiction of the licensing board.",
+      "licensureActionDateRequired": "Enter the date of this adverse action.",
+      "licensureActionDateInvalid": "Enter a valid date for this adverse action.",
+      "licensureActionDateFuture": "Adverse action date can't be in the future.",
+      "licensureActionExplanationRequired": "Explain the circumstances of this adverse action.",
+      "licensureActionExplanationMinLength": "Your explanation must be at least 10 characters.",
+      "licensureActionExplanationMaxLength": "Your explanation must be 3,000 characters or fewer.",
+
+      "malpracticeRequired": "Tell us whether you have ever had a malpractice claim filed against you.",
+      "malpracticeIncidentDateRequired": "Enter the date of the malpractice incident.",
+      "malpracticeIncidentDateInvalid": "Enter a valid incident date.",
+      "malpracticeClaimDateRequired": "Enter the date the claim was filed.",
+      "malpracticeClaimDateInvalid": "Enter a valid claim filing date.",
+      "malpracticeClaimDateBeforeIncident": "The claim filing date must be on or after the incident date.",
+      "malpracticeAllegationRequired": "Select the primary allegation type.",
+      "malpracticeOutcomeRequired": "Select the outcome of this claim.",
+      "malpracticeAmountRequired": "Enter the settlement or judgment amount in U.S. dollars.",
+      "malpracticeAmountMin": "Enter an amount of $0 or more.",
+      "malpracticeExplanationRequired": "Briefly explain the nature of this claim.",
+      "malpracticeExplanationMinLength": "Your explanation must be at least 10 characters.",
+      "malpracticeExplanationMaxLength": "Your explanation must be 3,000 characters or fewer.",
+
+      "clinicalPrivilegesRequired": "Tell us whether your clinical privileges have ever been denied, suspended, or revoked.",
+      "clinicalPrivilegesExplanationRequired": "Explain the circumstances of this clinical privileges action.",
+      "clinicalPrivilegesExplanationMinLength": "Your explanation must be at least 10 characters.",
+      "clinicalPrivilegesExplanationMaxLength": "Your explanation must be 3,000 characters or fewer.",
+      "clinicalPrivilegesDateRequired": "Enter the date of this action.",
+      "clinicalPrivilegesDateInvalid": "Enter a valid date for this action.",
+
+      "deaActionRequired": "Tell us whether your DEA registration has ever been denied, suspended, or revoked.",
+      "deaActionExplanationRequired": "Explain the circumstances of this DEA registration action.",
+      "deaActionExplanationMaxLength": "Your explanation must be 3,000 characters or fewer.",
+      "deaActionDateRequired": "Enter the date of this DEA action.",
+      "deaActionDateInvalid": "Enter a valid date for this DEA action.",
+
+      "criminalHistoryFelonyRequired": "Tell us whether you have ever been convicted of a felony.",
+      "criminalHistoryMisdemeanorRequired": "Tell us whether you have ever been convicted of a misdemeanor.",
+      "criminalExplanationRequired": "Explain the circumstances of this conviction.",
+      "criminalExplanationMinLength": "Your explanation must be at least 10 characters.",
+      "criminalExplanationMaxLength": "Your explanation must be 3,000 characters or fewer.",
+      "criminalOffenseTypeRequired": "Select the offense type.",
+      "criminalConvictionDateRequired": "Enter the date of this conviction.",
+      "criminalConvictionDateInvalid": "Enter a valid conviction date.",
+      "criminalJurisdictionRequired": "Enter the jurisdiction or court where this conviction occurred.",
+
+      "federalExclusionRequired": "Tell us whether you are currently on any federal healthcare exclusion list.",
+      "federalExclusionDisqualifying": "Individuals currently listed on the HHS OIG exclusion list or the SAM.gov excluded parties list are not eligible for a VHA clinical position. This application can't be submitted. Contact the VA Medical Center HR office for guidance."
+    },
+
+    "documentUpload": {
+      "fileTooLarge": "This file is too large. The maximum file size is 20 MB. Compress or reduce the file size and try again.",
+      "invalidFileType": "This file type isn't accepted. Upload a PDF, JPG, or PNG file.",
+      "uploadFailed": "We couldn't upload your file. Try again. If the problem continues, call us at 1-800-698-2411 (TTY: 711).",
+      "uploadInProgress": "Your file is uploading. Wait until the upload is complete before continuing.",
+      "licenseUploadRequired": "Upload a copy of each professional license listed in the Licensure section before you submit.",
+      "licenseUploadWarning": "You haven't uploaded copies of your professional licenses. Your application may be delayed without them.",
+      "deaCertificateRequired": "Upload a copy of your current DEA registration certificate.",
+      "documentDescriptionMaxLength": "Document description must be 200 characters or fewer."
+    },
+
+    "facilityInformation": {
+      "facilityRequired": "Select the VA Medical Center or facility where you are applying.",
+      "positionTitleRequired": "Enter the position or job title for this application.",
+      "positionTitleMaxLength": "Position title must be 200 characters or fewer.",
+      "appointmentTypeRequired": "Select the type of appointment you are seeking.",
+      "priorFacilityRequired": "Enter the name of the VA facility where you most recently held clinical privileges.",
+      "priorFacilityMaxLength": "Facility name must be 200 characters or fewer."
+    },
+
+    "attestation": {
+      "accuracyAttestationRequired": "Check the box to certify that your application information is true and complete.",
+      "backgroundInvestigationAuthRequired": "Check the box to authorize the background investigation.",
+      "releaseOfInfoAuthRequired": "Check the box to authorize the release of your information.",
+      "npdbAcknowledgmentRequired": "Check the box to acknowledge the NPDB query requirement.",
+      "signatureRequired": "Type your full legal name to sign this application.",
+      "signatureDoesNotMatch": "The name you entered doesn't match your application. Enter your name exactly as: {firstName} {middleName} {lastName}.",
+      "signatureMinLength": "Enter your full legal name.",
+      "signatureMaxLength": "Signature must be 150 characters or fewer.",
+      "signatureDateRequired": "Enter the date of your signature.",
+      "signatureDateInvalid": "Enter a valid signature date.",
+      "signatureDateFuture": "Signature date can't be in the future.",
+      "signatureDateTooOld": "Signature date can't be more than 7 days in the past. Enter today's date or a recent date."
+    }
+  },
+
+  "pageValidation": {
+    "requiredFieldsIncomplete": "Some required information is missing. Fix the errors below before you continue.",
+    "reviewPageIncomplete": "Some required information is missing from your application. Review and complete the sections listed below before you submit.",
+    "federalExclusionBlocksSubmission": "Your application can't be submitted because you indicated you are currently on a federal healthcare exclusion list. Contact the VA Medical Center HR office for guidance.",
+    "noLicenseUploaded": "You haven't uploaded your professional license copies. Uploading license copies is required. Your application may be delayed without them."
+  },
+
+  "saveInProgress": {
+    "saveSuccess": "Your application has been saved. You can return to it at any time by signing in to VA.gov.",
+    "saveFailed": "We couldn't save your application. Your recent changes may not be saved. Try again. If the problem continues, call us at 1-800-698-2411 (TTY: 711).",
+    "saveFailedRetry": "We're having trouble saving your application. We'll try again automatically. Don't close this page.",
+    "sessionExpiringSoon": "Your session will expire in 2 minutes. Select 'Continue session' to keep working, or your progress since the last save may be lost.",
+    "sessionExpired": "Your session has expired. Sign in again to continue your application. Your saved progress is still available.",
+    "applicationExpired": "Your saved application has expired after 60 days of inactivity. You'll need to start a new application.",
+    "returnToSavedForm": "You have a saved application from {savedDate}. Continue where you left off or start a new application.",
+    "continueButton": "Continue your saved application",
+    "startOverButton": "Start a new application"
+  },
+
+  "submission": {
+    "submitSuccess": "Your application has been submitted successfully. Your reference number is {referenceNumber}. Save this number for your records.",
+    "submitFailedGeneric": "We couldn't submit your application. Try again in a few minutes. If the problem continues, call us at 1-800-698-2411 (TTY: 711).",
+    "submitFailedTimeout": "The submission timed out. Check your internet connection and try again. Your application has been saved.",
+    "submitFailedServerError": "Something went wrong on our end. Your application wasn't submitted. Try again. If the problem continues, call us at 1-800-698-2411 (TTY: 711).",
+    "submitFailedDuplicate": "It looks like this application may have already been submitted. Check your email for a confirmation, or call the VAMC HR office to verify.",
+    "submitInProgress": "Submitting your application. Don't close this page.",
+    "submitRetryPrompt": "Your application wasn't submitted. Your information has been saved. Select 'Try again' to resubmit."
+  },
+
+  "authentication": {
+    "notSignedIn": "You must sign in to complete this application. Your progress will be saved so you can return where you left off.",
+    "signInRequired": "Sign in with your Login.gov or ID.me account to start or continue your application.",
+    "insufficientLoa": "Your account needs additional verification to access this form. Verify your identity with Login.gov or ID.me to continue.",
+    "signInError": "We couldn't sign you in. Try again. If the problem continues, call us at 1-800-698-2411 (TTY: 711)."
+  },
+
+  "systemAlerts": {
+    "formUnavailable": "This form is temporarily unavailable. Try again later. If you need help right away, call us at 1-800-698-2411 (TTY: 711).",
+    "maintenanceWindow": "VA.gov is undergoing maintenance from {startTime} to {endTime}. The form will be available after maintenance is complete.",
+    "pilotScopeNotice": "The online version of VA Form 10-2850e is currently available at select VA Medical Centers only. Contact the HR office at the facility where you are applying to confirm digital submission is available."
+  }
+}
