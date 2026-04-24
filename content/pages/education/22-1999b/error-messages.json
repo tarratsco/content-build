@@ -1,0 +1,474 @@
+{
+  "_comment": "VA Form 22-1999b — Enrollment Change Certification. Field-level, submission, and system error messages. All messages follow VA.gov plain language guidelines. Error messages are keyed by field name or error category.",
+
+  "fieldValidation": {
+
+    "facilityCode": {
+      "required": "Enter your VA Facility Code.",
+      "pattern": "Enter a valid 8-digit VA Facility Code. Example: 31000123.",
+      "notFound": "We couldn't find that VA Facility Code in our system. Check the code and try again, or contact your VA Education Liaison Representative.",
+      "hint": "Your 8-character facility code is assigned by VA and identifies your school location. Example: 31000123."
+    },
+
+    "institutionName": {
+      "required": "Enter your institution's name.",
+      "maxLength": "Institution name must be 100 characters or fewer.",
+      "hint": "This is the name of your school as registered with VA."
+    },
+
+    "scoFirstName": {
+      "required": "Enter your first name.",
+      "maxLength": "First name must be 50 characters or fewer."
+    },
+
+    "scoLastName": {
+      "required": "Enter your last name.",
+      "maxLength": "Last name must be 50 characters or fewer."
+    },
+
+    "scoTitle": {
+      "required": "Enter your title or role.",
+      "maxLength": "Title must be 100 characters or fewer."
+    },
+
+    "scoPhone": {
+      "required": "Enter your phone number.",
+      "pattern": "Enter a valid 10-digit U.S. phone number. Example: 555-867-5309.",
+      "hint": "Enter a 10-digit U.S. phone number including area code. VA may use this number to contact you about this submission."
+    },
+
+    "scoEmail": {
+      "required": "Enter your email address.",
+      "pattern": "Enter a valid email address in the format name@example.com.",
+      "maxLength": "Email address must be 255 characters or fewer.",
+      "hint": "Enter the email address where VA should send your submission confirmation."
+    },
+
+    "studentFirstName": {
+      "required": "Enter the student's first name.",
+      "maxLength": "First name must be 50 characters or fewer."
+    },
+
+    "studentLastName": {
+      "required": "Enter the student's last name.",
+      "maxLength": "Last name must be 50 characters or fewer."
+    },
+
+    "studentSSN": {
+      "required": "Enter the student's Social Security number.",
+      "pattern": "Enter a valid 9-digit Social Security number. Example: 123-45-6789.",
+      "hint": "Enter the student's SSN as it appears on their VA education benefit application."
+    },
+
+    "studentVaFileNumber": {
+      "required": "Enter the student's VA File Number.",
+      "pattern": "Enter a valid VA File Number. VA File Numbers are 8 or 9 digits. Example: 12345678.",
+      "hint": "Enter the VA File Number assigned to this student."
+    },
+
+    "ssnOrVaFileNumberToggle": {
+      "required": "Select whether you are entering a Social Security number or a VA File Number for this student."
+    },
+
+    "benefitChapter": {
+      "required": "Select the GI Bill benefit chapter for this student.",
+      "invalid": "Select a valid GI Bill benefit chapter from the list.",
+      "hint": "Select the GI Bill chapter under which this student's enrollment was originally certified."
+    },
+
+    "originalCertBeginDate": {
+      "required": "Enter the original certification begin date.",
+      "invalid": "Enter a valid begin date.",
+      "future": "The begin date cannot be in the future.",
+      "afterEnd": "The begin date must be before the end date.",
+      "hint": "Enter the first day of the enrollment period as it appears on the VA Form 22-1999 you are amending."
+    },
+
+    "originalCertEndDate": {
+      "required": "Enter the original certification end date.",
+      "invalid": "Enter a valid end date.",
+      "future": "The end date cannot be in the future.",
+      "beforeBegin": "The end date must be after the begin date.",
+      "hint": "Enter the last day of the enrollment period as it appears on the VA Form 22-1999 you are amending."
+    },
+
+    "originalCreditHours": {
+      "required": "Enter the number of credit hours originally certified.",
+      "min": "Credit hours must be a whole number greater than 0.",
+      "max": "Credit hours cannot exceed 99. If your program uses clock hours, contact your VA Education Liaison Representative.",
+      "integer": "Enter a whole number for credit hours. Do not use decimals.",
+      "hint": "Enter the total number of credit hours certified on the original VA Form 22-1999 for this enrollment period."
+    },
+
+    "originalEnrollmentType": {
+      "required": "Select the original enrollment status.",
+      "invalid": "Select a valid enrollment status from the list.",
+      "hint": "Select the enrollment status certified on the original VA Form 22-1999."
+    },
+
+    "typeOfChange": {
+      "required": "Select the type of enrollment change you are reporting.",
+      "hint": "Select the option that best describes what changed for this student."
+    },
+
+    "effectiveDateOfChange": {
+      "required": "Enter the effective date of the enrollment change.",
+      "invalid": "Enter a valid effective date.",
+      "future": "The effective date cannot be in the future.",
+      "beforeCertBegin": "The effective date must be on or after the original certification begin date of {certBeginDate}.",
+      "afterCertEnd": "The effective date must be on or before the original certification end date of {certEndDate}.",
+      "hint": "Enter the date this enrollment change took effect at your institution."
+    },
+
+    "lastDateOfAttendance": {
+      "required": "Enter the student's last date of attendance.",
+      "invalid": "Enter a valid last date of attendance.",
+      "future": "The last date of attendance cannot be in the future.",
+      "afterEffectiveDate": "The last date of attendance cannot be after the effective date of change ({effectiveDate}).",
+      "beforeCertBegin": "The last date of attendance cannot be before the start of the original certification period ({certBeginDate}).",
+      "hint": "Enter the last calendar date the student attended class or participated in an academic activity at your institution."
+    },
+
+    "newCreditHours": {
+      "required": "Enter the student's new credit hour total after this change.",
+      "min": "New credit hours must be at least 1. If the student has withdrawn from all courses, select 'Full termination of enrollment' as the type of change instead.",
+      "notLessThanOriginal": "New credit hours must be less than the {originalCreditHours} hours originally certified. If you are not reducing the student's hours, check the type of change you selected.",
+      "integer": "Enter a whole number for credit hours.",
+      "hint": "Enter the total number of credit hours the student is enrolled in after this change takes effect."
+    },
+
+    "newEnrollmentType": {
+      "required": "Select the student's enrollment status after this change.",
+      "invalid": "Select a valid enrollment status from the list.",
+      "hint": "Select the enrollment status that reflects the student's new credit hour total."
+    },
+
+    "reasonForChange": {
+      "required": "Select the primary reason for this enrollment change.",
+      "invalid": "Select a valid reason from the list.",
+      "hint": "Select the reason that best describes why this enrollment change occurred."
+    },
+
+    "mitigatingCircumstancesKnown": {
+      "required": "Select whether you are aware of any mitigating circumstances for this student.",
+      "hint": "Mitigating circumstances are situations beyond the student's control that contributed to their withdrawal or enrollment change."
+    },
+
+    "mitigatingCircumstancesNarrative": {
+      "required": "Describe the mitigating circumstances you are aware of.",
+      "minLength": "Provide at least a brief description of the mitigating circumstances (20 characters minimum).",
+      "maxLength": "Your description must be 2,000 characters or fewer. You have entered {count} characters.",
+      "hint": "Describe what you know about the circumstances that led to this student's enrollment change."
+    },
+
+    "correctionItems": {
+      "required": "Select at least one item you are correcting on the original VA Form 22-1999.",
+      "hint": "Check every field that contains an error."
+    },
+
+    "correctionCreditHours": {
+      "required": "Enter the corrected number of credit hours.",
+      "sameAsOriginal": "The corrected credit hours are the same as the originally certified hours. If no correction is needed for credit hours, uncheck that option.",
+      "min": "Corrected credit hours must be a whole number greater than 0.",
+      "integer": "Enter a whole number for credit hours."
+    },
+
+    "correctedCertBeginDate": {
+      "required": "Enter the corrected certification begin date.",
+      "invalid": "Enter a valid corrected begin date.",
+      "future": "The corrected begin date cannot be in the future.",
+      "afterEnd": "The corrected begin date must be before the corrected end date."
+    },
+
+    "correctedCertEndDate": {
+      "required": "Enter the corrected certification end date.",
+      "invalid": "Enter a valid corrected end date.",
+      "future": "The corrected end date cannot be in the future.",
+      "beforeBegin": "The corrected end date must be after the corrected begin date."
+    },
+
+    "correctedEnrollmentType": {
+      "required": "Select the corrected enrollment status.",
+      "sameAsOriginal": "The corrected enrollment status is the same as what was originally certified. If no correction is needed for enrollment status, uncheck that option."
+    },
+
+    "correctedTuitionFees": {
+      "required": "Enter the corrected tuition and fees amount.",
+      "min": "Tuition and fees amount cannot be less than $0.",
+      "format": "Enter a dollar amount using numbers only. Example: 3500.00.",
+      "hint": "Enter the correct tuition and fees amount in U.S. dollars."
+    },
+
+    "correctedStudentFirstName": {
+      "required": "Enter the corrected student first name.",
+      "maxLength": "First name must be 50 characters or fewer."
+    },
+
+    "correctedStudentLastName": {
+      "required": "Enter the corrected student last name.",
+      "maxLength": "Last name must be 50 characters or fewer."
+    },
+
+    "correctedStudentSSN": {
+      "required": "Enter the corrected Social Security number.",
+      "pattern": "Enter a valid 9-digit Social Security number."
+    },
+
+    "correctedBenefitChapter": {
+      "required": "Select the corrected GI Bill benefit chapter.",
+      "sameAsOriginal": "The corrected benefit chapter is the same as what was originally certified. If no correction is needed for benefit chapter, uncheck that option."
+    },
+
+    "correctionOtherDescription": {
+      "required": "Describe the other correction you are making.",
+      "minLength": "Provide at least a brief description of the correction (20 characters minimum).",
+      "maxLength": "Description must be 1,000 characters or fewer."
+    },
+
+    "lateSubmissionExplanation": {
+      "required": "Explain why this change is being reported more than 30 days after it occurred.",
+      "minLength": "Provide at least a brief explanation (20 characters minimum).",
+      "maxLength": "Explanation must be 1,000 characters or fewer. You have entered {count} characters.",
+      "hint": "VA's standard is that enrollment changes be reported within 30 days of the effective date. Providing an explanation helps VA understand the context."
+    },
+
+    "supportingDocumentation": {
+      "required": "Upload at least one supporting document for this correction. Supporting documentation is required when correcting a previously submitted certification.",
+      "fileType": "This file type is not accepted. Upload a PDF, JPG, or PNG file.",
+      "fileSize": "This file is too large. Maximum file size is 25 MB. Compress the file or split it into multiple smaller files.",
+      "fileCount": "You can upload a maximum of 3 files. Remove a file before adding another.",
+      "uploadFailed": "We couldn't upload {filename}. Check that the file is not damaged and try again. If the problem continues, try a different file or contact VA at 1-888-442-4551.",
+      "hint": "Accepted file types: PDF, JPG, PNG. Maximum file size: 25 MB per file. You may upload up to 3 files."
+    },
+
+    "certificationAttestation": {
+      "required": "You must certify the accuracy of this information before submitting. Check the certification box to continue.",
+      "hint": "By checking this box and submitting this form, you are providing a legally binding electronic attestation equivalent to signing the paper form."
+    }
+  },
+
+  "pageValidation": {
+
+    "institutionPage": {
+      "summaryHeading": "There's a problem with your institution information",
+      "summaryBody": "Check the information below and correct any errors before continuing."
+    },
+
+    "scoContactPage": {
+      "summaryHeading": "There's a problem with your contact information",
+      "summaryBody": "Check the information below and correct any errors before continuing."
+    },
+
+    "studentIdentificationPage": {
+      "summaryHeading": "There's a problem with the student information",
+      "summaryBody": "Check the information below and correct any errors before continuing."
+    },
+
+    "priorCertificationPage": {
+      "summaryHeading": "There's a problem with the original certification information",
+      "summaryBody": "Check the information below and correct any errors before continuing."
+    },
+
+    "typeOfChangePage": {
+      "summaryHeading": "Select the type of enrollment change",
+      "summaryBody": "You must select a type of enrollment change to continue."
+    },
+
+    "effectiveDatePage": {
+      "summaryHeading": "There's a problem with the effective date",
+      "summaryBody": "Check the date you entered and correct any errors before continuing."
+    },
+
+    "lastDateOfAttendancePage": {
+      "summaryHeading": "There's a problem with the last date of attendance",
+      "summaryBody": "Check the date you entered and correct any errors before continuing."
+    },
+
+    "updatedEnrollmentPage": {
+      "summaryHeading": "There's a problem with the updated enrollment information",
+      "summaryBody": "Check the information below and correct any errors before continuing."
+    },
+
+    "reasonForChangePage": {
+      "summaryHeading": "Select a reason for this enrollment change",
+      "summaryBody": "You must select a reason for the enrollment change to continue."
+    },
+
+    "mitigatingCircumstancesPage": {
+      "summaryHeading": "There's a problem with the mitigating circumstances information",
+      "summaryBody": "Check the information below and correct any errors before continuing."
+    },
+
+    "correctionDetailsPage": {
+      "summaryHeading": "There's a problem with the correction details",
+      "summaryBody": "Check the information below and correct any errors before continuing."
+    },
+
+    "timelinessPage": {
+      "summaryHeading": "Explain why this change is being reported late",
+      "summaryBody": "Because this change occurred more than 30 days ago, you must provide an explanation before continuing."
+    },
+
+    "reviewPage": {
+      "summaryHeading": "There's a problem with your submission",
+      "summaryBody": "Check the information below and correct any errors before submitting."
+    }
+  },
+
+  "submission": {
+
+    "inProgress": {
+      "heading": "Submitting your enrollment change certification",
+      "body": "Please wait while we submit your form. Do not close this window or press the back button."
+    },
+
+    "success": {
+      "heading": "Enrollment change certification submitted",
+      "body": "We've received your enrollment change certification for {studentName}. Your confirmation number is {confirmationNumber}. We sent a confirmation email to {scoEmail}. VA will process this change and contact the student if their benefit payments are adjusted.",
+      "printButton": "Print this confirmation"
+    },
+
+    "error": {
+      "heading": "We couldn't submit your enrollment change certification",
+      "body": "Something went wrong on our end. Your information was not submitted. Please try again. If the problem continues, call VA at 1-888-442-4551 (Monday through Friday, 8:00 a.m. to 7:00 p.m. ET).",
+      "retryButton": "Try again",
+      "referenceNumber": "If you contact VA about this error, use this reference number: {errorReference}"
+    },
+
+    "networkError": {
+      "heading": "Check your internet connection",
+      "body": "We couldn't submit your form because of a connection problem. Check your internet connection and try again. Your information has been saved and you can return to complete your submission."
+    },
+
+    "timeout": {
+      "heading": "Your submission timed out",
+      "body": "Your submission took too long and we couldn't confirm it was received. Do not submit again yet. Check your email for a confirmation message. If you did not receive a confirmation email within 1 hour, call VA at 1-888-442-4551 to confirm whether your submission was received."
+    },
+
+    "duplicate": {
+      "heading": "A similar submission may already exist",
+      "body": "VA's system found a recent enrollment change certification for this student that may overlap with the change you are reporting. Review the details below and confirm you want to proceed with this submission, or call VA at 1-888-442-4551 for help.",
+      "continueButton": "Continue with this submission",
+      "cancelButton": "Cancel and return to form"
+    },
+
+    "facilityCodeMismatch": {
+      "heading": "We couldn't verify your institution",
+      "body": "The VA Facility Code you entered does not match your signed-in account information. Check the Facility Code and try again. If you believe this is an error, contact your VA Education Liaison Representative."
+    }
+  },
+
+  "saveInProgress": {
+
+    "saveSuccess": {
+      "heading": "Your progress has been saved",
+      "body": "We saved your enrollment change certification. You can return to complete it later. Sign in to VA.gov to pick up where you left off."
+    },
+
+    "saveError": {
+      "heading": "We couldn't save your progress",
+      "body": "Something went wrong and we couldn't save your information. Try saving again. If the problem continues, you can still complete and submit this form — your progress will be saved when you move to the next page."
+    },
+
+    "resumeForm": {
+      "heading": "You have a saved enrollment change certification",
+      "body": "You started this form on {savedDate}. You can continue where you left off or start over.",
+      "continueButton": "Continue your saved form",
+      "startOverButton": "Start a new enrollment change certification",
+      "startOverConfirmHeading": "Are you sure you want to start over?",
+      "startOverConfirmBody": "Starting over will delete your saved information and you'll need to re-enter everything.",
+      "startOverConfirmButton": "Yes, start over",
+      "startOverCancelButton": "No, continue my saved form"
+    },
+
+    "sessionExpiringWarning": {
+      "heading": "Your session is about to expire",
+      "body": "You'll be signed out in 5 minutes. We've saved your progress so far. Sign back in to continue your enrollment change certification.",
+      "staySignedInButton": "Stay signed in",
+      "signOutButton": "Sign out"
+    },
+
+    "sessionExpired": {
+      "heading": "Your session has expired",
+      "body": "You were signed out because your session timed out. We saved your progress up to the last page you completed. Sign in again to continue your enrollment change certification.",
+      "signInButton": "Sign in to continue"
+    }
+  },
+
+  "authentication": {
+
+    "notSignedIn": {
+      "heading": "Sign in to report an enrollment change",
+      "body": "You must be signed in to VA.gov as a School Certifying Official to use this form. Sign in with your Login.gov or ID.me account to continue.",
+      "signInButton": "Sign in to start"
+    },
+
+    "scoRoleNotVerified": {
+      "heading": "We couldn't verify your School Certifying Official credentials",
+      "body": "Your VA.gov account is not currently linked to a School Certifying Official role. If you believe this is an error, contact your VA Education Liaison Representative for help getting access.",
+      "contactElrLink": "Find your VA Education Liaison Representative"
+    },
+
+    "signInError": {
+      "heading": "We couldn't sign you in",
+      "body": "Something went wrong while signing you in. Try again. If the problem continues, call VA at 1-888-442-4551 or use Ask VA to report the issue.",
+      "tryAgainButton": "Try signing in again"
+    }
+  },
+
+  "prefill": {
+
+    "institutionPrefilled": {
+      "infoAlert": "We pre-filled your institution information from your account. Review it carefully before continuing. If anything is wrong, contact your VA Education Liaison Representative to update your school's record."
+    },
+
+    "scoPrefilled": {
+      "infoAlert": "We pre-filled your contact information from your account. You can update it before submitting."
+    },
+
+    "priorCertPrefilled": {
+      "infoAlert": "We pre-filled the original certification information for this student from VA records. Review all fields carefully — this information must match the VA Form 22-1999 you are amending."
+    },
+
+    "priorCertNotFound": {
+      "infoAlert": "We couldn't find prior certification information for this student in VA's system. Enter the enrollment period details from the original VA Form 22-1999 you are amending. You can find this information in VAONCE or your institution's certification records."
+    },
+
+    "prefillError": {
+      "infoAlert": "We couldn't pre-fill some information at this time. Enter the required fields manually. If this problem continues, contact your VA Education Liaison Representative."
+    }
+  },
+
+  "contextualAlerts": {
+
+    "lateSubmissionWarning": {
+      "heading": "This change is being reported late",
+      "body": "This enrollment change occurred on {effectiveDate} — {daysLate} days ago. VA's standard is to report enrollment changes within 30 days. Because this report is late, your student may have received benefit payments they were not entitled to. VA will calculate any overpayment and notify the student directly. Providing an explanation for the late report here will be part of the administrative record."
+    },
+
+    "mitigatingCircumstancesWarning": {
+      "heading": "Documenting mitigating circumstances may protect your student",
+      "body": "If your student withdrew due to circumstances beyond their control, documenting those circumstances here may reduce or eliminate an overpayment debt. VA is required by law to consider mitigating circumstances before establishing an overpayment. Even partial information is helpful — please share what you know."
+    },
+
+    "militaryDeploymentInfo": {
+      "heading": "Students who withdrew due to military deployment may be protected",
+      "body": "Students who left school because of a military deployment order may be protected from overpayment under federal law. VA will identify this automatically based on the reason you have selected. No further action is required on this form for this protection to apply."
+    },
+
+    "fullTerminationMhaInfo": {
+      "heading": "The last date of attendance affects your student's housing allowance",
+      "body": "For Post-9/11 GI Bill students, VA calculates the last housing allowance payment based on the last date of attendance — not the official withdrawal date. Providing an accurate last date of attendance helps ensure your student's benefit payments are calculated correctly and minimizes potential overpayments."
+    },
+
+    "correctionRequiresDocumentation": {
+      "heading": "Supporting documentation required for corrections",
+      "body": "When you correct information on a previously submitted enrollment certification, VA requires supporting documentation to verify the correction. Upload at least one document that supports the change you are making (for example, a corrected transcript, updated enrollment record, or written statement from your registrar)."
+    },
+
+    "vaonceCoexistenceInfo": {
+      "heading": "You can also submit enrollment changes through VAONCE",
+      "body": "This digital form and VAONCE are currently both available for submitting enrollment change certifications. Submit through only one channel to avoid creating duplicate records. If you use this form, do not also submit the same change in VAONCE."
+    }
+  }
+}
