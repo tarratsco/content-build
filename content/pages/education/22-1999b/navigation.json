@@ -1,0 +1,132 @@
+{
+  "_comment": "Sidebar navigation for VA Form 22-1999b — Enrollment Change Certification. Used by content-build to render the left-rail navigation on School Administrators section pages.",
+
+  "section": "school-administrators",
+  "navTitle": "Enroll and certify students",
+
+  "links": [
+    {
+      "label": "Certify student enrollment (VA Form 22-1999)",
+      "url": "/education/gi-bill-and-other-education-benefit-programs/school-resources/certify-student-enrollment",
+      "isExternal": false,
+      "description": "Submit initial enrollment certifications for students using GI Bill benefits."
+    },
+    {
+      "label": "Report an enrollment change (VA Form 22-1999b)",
+      "url": "/school-administrators/enrollment-change-certification",
+      "isExternal": false,
+      "isCurrentSection": true,
+      "description": "Report changes, reductions, and terminations to a student's enrollment after the initial certification has been submitted.",
+      "subLinks": [
+        {
+          "label": "Start the enrollment change form",
+          "url": "/school-administrators/enrollment-change-certification",
+          "isExternal": false,
+          "isCallToAction": true
+        },
+        {
+          "label": "Help and frequently asked questions",
+          "url": "/school-administrators/enrollment-change-certification/help",
+          "isExternal": false
+        }
+      ]
+    },
+    {
+      "label": "Request a change of program or place of training (VA Form 22-1995)",
+      "url": "/education/apply-for-education-benefits/application/1995/",
+      "isExternal": false,
+      "description": "Help students transfer their GI Bill benefits to a new school or program."
+    },
+    {
+      "label": "SCO resources and training",
+      "url": "/school-administrators",
+      "isExternal": false,
+      "description": "Access the VA SCO Handbook, training materials, and other resources for School Certifying Officials."
+    },
+    {
+      "label": "Find your VA Education Liaison Representative",
+      "url": "https://www.benefits.va.gov/gibill/resources/education_resources/school_certifying_officials/elr.asp",
+      "isExternal": true,
+      "description": "Find the VA Education Liaison Representative for your region."
+    },
+    {
+      "label": "GI Bill overpayment and debt resources",
+      "url": "https://www.benefits.va.gov/GIBILL/resources/education_resources/school_certifying_officials/Debt.asp",
+      "isExternal": true,
+      "description": "Learn about GI Bill overpayments and what happens when enrollment changes are reported late."
+    }
+  ],
+
+  "relatedLinks": {
+    "heading": "More VA resources for schools",
+    "links": [
+      {
+        "label": "GI Bill School Resources",
+        "url": "https://www.benefits.va.gov/gibill/school_resources.asp",
+        "isExternal": true
+      },
+      {
+        "label": "VA GI Bill Comparison Tool",
+        "url": "/education/gi-bill-comparison-tool",
+        "isExternal": false
+      },
+      {
+        "label": "Ask VA a question",
+        "url": "https://ask.va.gov",
+        "isExternal": true
+      },
+      {
+        "label": "Education benefits for Veterans",
+        "url": "/education",
+        "isExternal": false
+      }
+    ]
+  },
+
+  "breadcrumbs": [
+    {
+      "name": "Home",
+      "path": "/"
+    },
+    {
+      "name": "School administrators",
+      "path": "/school-administrators"
+    },
+    {
+      "name": "Report an enrollment change (VA Form 22-1999b)",
+      "path": "/school-administrators/enrollment-change-certification"
+    }
+  ],
+
+  "formMetadata": {
+    "formNumber": "22-1999b",
+    "formTitle": "Enrollment Change Certification",
+    "formUrl": "/school-administrators/enrollment-change-certification",
+    "formHelpUrl": "/school-administrators/enrollment-change-certification/help",
+    "relatedFormNumbers": ["22-1999", "22-1995", "22-1990"],
+    "pdfFormUrl": "https://www.vba.va.gov/pubs/forms/VBA-22-1999b-ARE.pdf",
+    "pdfFormLabel": "Download VA Form 22-1999b (PDF) — paper version",
+    "ombControlNumber": "Pending confirmation",
+    "ombExpirationDate": "Pending confirmation",
+    "respondentBurdenMinutes": 15,
+    "primarySubmitter": "School Certifying Official",
+    "benefitLine": "Education — GI Bill",
+    "digitalFormStatus": "in-development",
+    "vagovprod": false
+  },
+
+  "contactInfo": {
+    "heading": "Questions? Contact VA",
+    "scoSupportLine": {
+      "label": "SCO Support Line",
+      "number": "1-888-442-4551",
+      "hours": "Monday through Friday, 8:00 a.m. to 7:00 p.m. ET",
+      "tty": "711"
+    },
+    "askVa": {
+      "label": "Ask VA a question online",
+      "url": "https://ask.va.gov",
+      "isExternal": true
+    }
+  }
+}
