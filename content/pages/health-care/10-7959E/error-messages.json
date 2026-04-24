@@ -1,0 +1,255 @@
+{
+  "form": "VA Form 10-7959E",
+  "version": "JUN 2025",
+  "omb": "2900-0219",
+  "fieldErrors": {
+    "programSelection": {
+      "required": "Please select the program under which you are filing this claim."
+    },
+    "patientLastName": {
+      "required": "Please enter the patient's last name.",
+      "pattern": "Last name can only include letters, hyphens, apostrophes, and spaces.",
+      "maxLength": "Last name must be 30 characters or fewer."
+    },
+    "patientFirstName": {
+      "required": "Please enter the patient's first name.",
+      "pattern": "First name can only include letters, hyphens, apostrophes, and spaces.",
+      "maxLength": "First name must be 30 characters or fewer."
+    },
+    "patientMiddleInitial": {
+      "pattern": "Please enter a single letter for the middle initial."
+    },
+    "patientSsn": {
+      "required": "Please enter the patient's Social Security number.",
+      "pattern": "Please enter a 9-digit Social Security number in the format 999-99-9999."
+    },
+    "patientDateOfBirth": {
+      "required": "Please enter the patient's date of birth.",
+      "invalid": "Please enter a valid date of birth.",
+      "future": "Date of birth cannot be a future date.",
+      "tooOld": "Please enter a date of birth after January 1, 1900."
+    },
+    "patientStreetAddress": {
+      "required": "Please enter the patient's street address.",
+      "maxLength": "Street address must be 50 characters or fewer."
+    },
+    "patientCity": {
+      "required": "Please enter the patient's city.",
+      "maxLength": "City must be 30 characters or fewer."
+    },
+    "patientState": {
+      "required": "Please select the patient's state."
+    },
+    "patientZip": {
+      "required": "Please enter the patient's ZIP code.",
+      "pattern": "Please enter a valid ZIP code in the format 99999 or 99999-9999."
+    },
+    "patientPhone": {
+      "required": "Please enter the patient's telephone number.",
+      "pattern": "Please enter a valid phone number in the format (999) 999-9999."
+    },
+    "sponsorLastName": {
+      "required": "Please enter the sponsor's last name.",
+      "maxLength": "Last name must be 30 characters or fewer."
+    },
+    "sponsorFirstName": {
+      "required": "Please enter the sponsor's first name.",
+      "maxLength": "First name must be 30 characters or fewer."
+    },
+    "sponsorSsn": {
+      "required": "Please enter the sponsor's Social Security number.",
+      "pattern": "Please enter a 9-digit Social Security number in the format 999-99-9999."
+    },
+    "claimType": {
+      "required": "Please select at least one type of expense you are claiming."
+    },
+    "dateOfService": {
+      "required": "Please enter the date of service.",
+      "future": "The date of service cannot be a future date.",
+      "invalid": "Please enter a valid date of service."
+    },
+    "providerTaxId": {
+      "required": "Please enter the provider's Tax ID number.",
+      "pattern": "Please enter a valid Tax ID number (9 digits, formatted as 99-9999999 or 999-99-9999)."
+    },
+    "providerSignature": {
+      "required": "Please enter the provider's name as their electronic signature.",
+      "maxLength": "Provider signature must be 60 characters or fewer."
+    },
+    "providerWillBill": {
+      "required": "Please indicate whether the provider will be billing for services."
+    },
+    "modeOfTravel": {
+      "required": "Please select at least one mode of travel."
+    },
+    "otherModeOfTravel": {
+      "required": "Please describe the other mode of travel.",
+      "maxLength": "Description must be 60 characters or fewer."
+    },
+    "dateOfTravel": {
+      "required": "Please enter the date of travel.",
+      "invalid": "Please enter a valid date of travel.",
+      "future": "The date of travel cannot be a future date."
+    },
+    "departureCity": {
+      "required": "Please enter the departure city.",
+      "maxLength": "City name must be 30 characters or fewer."
+    },
+    "departureState": {
+      "required": "Please select the departure state."
+    },
+    "departureTime": {
+      "required": "Please enter the departure time.",
+      "pattern": "Please enter the time in 24-hour format, e.g., 0815 for 8:15 AM or 1430 for 2:30 PM."
+    },
+    "arrivalCity": {
+      "required": "Please enter the arrival city.",
+      "maxLength": "City name must be 30 characters or fewer."
+    },
+    "arrivalState": {
+      "required": "Please select the arrival state."
+    },
+    "arrivalTime": {
+      "required": "Please enter the arrival time.",
+      "pattern": "Please enter the time in 24-hour format, e.g., 0815 for 8:15 AM or 1430 for 2:30 PM."
+    },
+    "addSecondSegment": {
+      "required": "Please indicate whether you have a second travel segment to add."
+    },
+    "povDepartureCity": {
+      "required": "Please enter the departure city for your POV trip.",
+      "maxLength": "City name must be 30 characters or fewer."
+    },
+    "povDepartureState": {
+      "required": "Please select the departure state for your POV trip."
+    },
+    "povArrivalCity": {
+      "required": "Please enter the arrival city for your POV trip.",
+      "maxLength": "City name must be 30 characters or fewer."
+    },
+    "povArrivalState": {
+      "required": "Please select the arrival state for your POV trip."
+    },
+    "attendantTraveled": {
+      "required": "Please indicate whether an attendant traveled with the patient."
+    },
+    "attendantLastName": {
+      "required": "Please enter the attendant's last name.",
+      "maxLength": "Last name must be 30 characters or fewer."
+    },
+    "attendantFirstName": {
+      "required": "Please enter the attendant's first name.",
+      "maxLength": "First name must be 30 characters or fewer."
+    },
+    "attendantRelationship": {
+      "required": "Please enter the attendant's relationship to the patient.",
+      "maxLength": "Relationship must be 30 characters or fewer."
+    },
+    "lodgingAmount": {
+      "required": "Please enter the lodging amount.",
+      "invalid": "Please enter a valid dollar amount greater than $0.00.",
+      "min": "Lodging amount must be greater than $0.00."
+    },
+    "mealsAmount": {
+      "required": "Please enter the meals amount.",
+      "invalid": "Please enter a valid dollar amount greater than $0.00.",
+      "min": "Meals amount must be greater than $0.00."
+    },
+    "otherExpensesAmount": {
+      "required": "Please enter the other expenses amount.",
+      "invalid": "Please enter a valid dollar amount greater than $0.00.",
+      "min": "Other expenses amount must be greater than $0.00."
+    },
+    "receiptUpload": {
+      "required": "Please upload at least one receipt. Receipts are required for all expenses except POV mileage.",
+      "fileType": "That file type is not accepted. Please upload a PDF, JPG, or PNG file.",
+      "fileSize": "That file is too large. Please upload a file smaller than 25 MB.",
+      "uploadFailed": "We couldn't upload that file. Please try again. If the problem continues, try a different file or contact OIVC at 1-833-930-0816.",
+      "categoryRequired": "Please select what this receipt is for."
+    },
+    "certificationSigner": {
+      "required": "Please indicate who will sign the certification."
+    },
+    "representativeLastName": {
+      "required": "Please enter the representative's last name.",
+      "maxLength": "Last name must be 30 characters or fewer."
+    },
+    "representativeFirstName": {
+      "required": "Please enter the representative's first name.",
+      "maxLength": "First name must be 30 characters or fewer."
+    },
+    "representativeSsn": {
+      "required": "Please enter the representative's Social Security number.",
+      "pattern": "Please enter a 9-digit Social Security number in the format 999-99-9999."
+    },
+    "representativeStreetAddress": {
+      "required": "Please enter the representative's street address.",
+      "maxLength": "Street address must be 50 characters or fewer."
+    },
+    "representativeCity": {
+      "required": "Please enter the representative's city.",
+      "maxLength": "City name must be 30 characters or fewer."
+    },
+    "representativeState": {
+      "required": "Please select the representative's state."
+    },
+    "representativeZip": {
+      "required": "Please enter the representative's ZIP code.",
+      "pattern": "Please enter a valid ZIP code in the format 99999 or 99999-9999."
+    },
+    "representativePhone": {
+      "required": "Please enter the representative's telephone number.",
+      "pattern": "Please enter a valid phone number in the format (999) 999-9999."
+    },
+    "certificationCheckbox": {
+      "required": "You must check this box to certify your claim before submitting."
+    },
+    "typedSignature": {
+      "required": "Please enter your full name as your electronic signature.",
+      "maxLength": "Signature must be 60 characters or fewer."
+    },
+    "signatureDate": {
+      "required": "Please enter the date you are signing.",
+      "future": "The signature date cannot be a future date.",
+      "invalid": "Please enter a valid date.",
+      "tooOld": "The signature date must be within the last 30 days."
+    }
+  },
+  "pageErrors": {
+    "errorSummaryHeading": "There {count, plural, one {is # error} other {are # errors}} on this page. Please correct {count, plural, one {it} other {them}} before continuing.",
+    "prefillUnavailable": "We couldn't find the patient's information in your VA records. Please enter the patient's information below.",
+    "prefillPartial": "We found some of your information, but couldn't fill in everything. Please review and complete any missing fields.",
+    "sessionExpiringSoon": "Your session is about to expire. Would you like to continue working on your claim?",
+    "sessionExpired": "Your session has expired. Please sign in again to continue. Your saved progress will still be available.",
+    "authRequired": "You must sign in to submit this form online. Sign in with Login.gov or ID.me to continue.",
+    "travelSectionNote": "You selected travel expenses. You'll need to complete the travel section (Section III), including provider certification, before you can submit this claim."
+  },
+  "submissionErrors": {
+    "generic": "We're sorry. Something went wrong when we tried to submit your claim. Please try again in a few minutes. If this problem continues, you can submit your claim by mail or fax instead.",
+    "timeout": "Your request timed out. Please check your internet connection and try again. Your progress has been saved.",
+    "serverError": "Our system is having technical difficulties right now. Please try again later. If the problem continues, contact OIVC at 1-833-930-0816 or submit your claim by mail to VHA Office of Integrated Veteran Care, P.O. Box 400, Spring City, PA 19475.",
+    "fileUploadFailed": "We received your form but had trouble saving one or more of your uploaded receipts. Please contact OIVC at 1-833-930-0816 and have your confirmation number ready. Confirmation number: {confirmationNumber}",
+    "duplicateSubmission": "It looks like this claim may have already been submitted. Check your email for a confirmation. If you need help, call OIVC at 1-833-930-0816.",
+    "enrollmentNotFound": "We couldn't verify your enrollment in the Spina Bifida or CWVV program. To submit this claim, please call OIVC at 1-833-930-0816."
+  },
+  "saveInProgressErrors": {
+    "saveFailed": "We couldn't save your progress right now. Please try again. If the problem continues, don't close this window — you may lose your work.",
+    "loadFailed": "We couldn't load your saved claim. Please try refreshing the page. If the problem continues, you may need to start over.",
+    "savedFormExpired": "Your saved claim has expired because it was inactive for more than 60 days. You'll need to start a new claim.",
+    "savedFormFound": "You have a claim in progress from {savedDate}. Would you like to continue where you left off, or start a new claim?",
+    "confirmDiscardSaved": "If you start a new claim, your saved progress will be deleted. Are you sure you want to start over?"
+  },
+  "fileUploadMessages": {
+    "uploadSuccess": "{filename} uploaded successfully.",
+    "uploadInProgress": "Uploading {filename}. Please wait.",
+    "removeFile": "Remove {filename}",
+    "fileListHeading": "Uploaded receipts ({count})",
+    "noFilesUploaded": "No receipts uploaded yet.",
+    "maxFileSizeNotice": "Maximum file size: 25 MB per file.",
+    "acceptedFileTypesNotice": "Accepted file types: PDF, JPG, PNG."
+  },
+  "navigationMessages": {
+    "leaveFormWarning": "If you leave this page, you may lose your progress. Make sure you've saved before leaving.",
+    "backButtonWarning": "If you go back, any information you entered on this page will be saved."
+  }
+}
