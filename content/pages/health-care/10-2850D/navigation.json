@@ -1,0 +1,91 @@
+{
+  "_comment": "Sidebar navigation configuration for VA Form 10-2850D content pages. Used by content-build to render the left-hand navigation on static content pages related to this form.",
+  "navTitle": "Health Professions Trainee Data Collection",
+  "rootPath": "/health-professions-trainee-data-collection",
+  "items": [
+    {
+      "label": "About VA Form 10-2850D",
+      "path": "/health-professions-trainee-data-collection/introduction/",
+      "order": 1,
+      "isIntroduction": true,
+      "description": "What this form is for, who needs to complete it, and what to gather before you start."
+    },
+    {
+      "label": "Start your application",
+      "path": "/health-professions-trainee-data-collection/",
+      "order": 2,
+      "isFormEntry": true,
+      "callToAction": true,
+      "description": "Sign in with Login.gov and complete VA Form 10-2850D online."
+    },
+    {
+      "label": "Help and frequently asked questions",
+      "path": "/health-care/10-2850D/help/",
+      "order": 3,
+      "description": "Answers to common questions about completing and submitting VA Form 10-2850D."
+    },
+    {
+      "label": "Download the PDF form",
+      "path": "https://www.va.gov/vaforms/medical/pdf/VA-10-2850d-fill.pdf",
+      "order": 4,
+      "isExternal": true,
+      "opensInNewTab": true,
+      "description": "Download and print VA Form 10-2850D (AUG 2024). OMB Control No. 2900-0205."
+    }
+  ],
+  "relatedLinks": {
+    "heading": "Related resources",
+    "links": [
+      {
+        "label": "VA Find a Form — VA Form 10-2850D",
+        "path": "https://www.va.gov/find-forms/about-form-10-2850d/",
+        "isExternal": true,
+        "opensInNewTab": false
+      },
+      {
+        "label": "VHA Office of Academic Affiliations",
+        "path": "https://www.va.gov/oaa/",
+        "isExternal": true,
+        "opensInNewTab": false
+      },
+      {
+        "label": "Create a Login.gov account",
+        "path": "https://login.gov/create-an-account/",
+        "isExternal": true,
+        "opensInNewTab": false
+      },
+      {
+        "label": "Login.gov in-person identity verification",
+        "path": "https://login.gov/help/verify-your-identity/verify-your-identity-in-person/",
+        "isExternal": true,
+        "opensInNewTab": false
+      }
+    ]
+  },
+  "breadcrumbs": [
+    {
+      "label": "Home",
+      "path": "/"
+    },
+    {
+      "label": "Health care",
+      "path": "/health-care/"
+    },
+    {
+      "label": "Health professions trainee data collection",
+      "path": "/health-professions-trainee-data-collection/"
+    }
+  ],
+  "formMeta": {
+    "formNumber": "10-2850D",
+    "formTitle": "Health Professions Trainee Data Collection Form",
+    "ombControlNumber": "2900-0205",
+    "ombExpirationDate": "05/31/2026",
+    "estimatedCompletionTime": "30 minutes",
+    "lastRevised": "AUG 2024",
+    "pdfUrl": "https://www.va.gov/vaforms/medical/pdf/VA-10-2850d-fill.pdf",
+    "onlineFormUrl": "/health-professions-trainee-data-collection/",
+    "authenticationRequired": true,
+    "authenticationMethod": "Login.gov IAL2"
+  }
+}
