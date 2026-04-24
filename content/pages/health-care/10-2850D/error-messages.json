@@ -1,0 +1,401 @@
+{
+  "_comment": "Field-level, submission, and save-in-progress error messages for VA Form 10-2850D (Health Professions Trainee Data Collection). OMB Control No. 2900-0205.",
+  "fieldErrors": {
+    "lastName": {
+      "required": "Enter your last name.",
+      "maxLength": "Last name must be 100 characters or fewer.",
+      "invalidFormat": "Enter a valid last name."
+    },
+    "firstName": {
+      "required": "Enter your first name.",
+      "maxLength": "First name must be 100 characters or fewer.",
+      "invalidFormat": "Enter a valid first name."
+    },
+    "middleName": {
+      "maxLength": "Middle name must be 50 characters or fewer."
+    },
+    "otherNamesUsed": {
+      "maxLength": "Other names must be 200 characters or fewer."
+    },
+    "streetAddress": {
+      "required": "Enter your street address.",
+      "maxLength": "Street address must be 100 characters or fewer."
+    },
+    "city": {
+      "required": "Enter your city.",
+      "maxLength": "City must be 100 characters or fewer."
+    },
+    "state": {
+      "required": "Select your state."
+    },
+    "zipCode": {
+      "required": "Enter your ZIP code.",
+      "invalidFormat": "Enter a 5-digit ZIP code or ZIP+4 (for example: 20420 or 20420-0001)."
+    },
+    "primaryPhone": {
+      "required": "Enter a phone number.",
+      "invalidFormat": "Enter a 10-digit phone number including area code (for example: 2025551234)."
+    },
+    "alternatePhone": {
+      "invalidFormat": "Enter a 10-digit phone number including area code (for example: 2025551234)."
+    },
+    "primaryEmail": {
+      "required": "Enter an email address.",
+      "invalidFormat": "Enter a valid email address in the format name@example.com."
+    },
+    "alternateEmail": {
+      "invalidFormat": "Enter a valid email address in the format name@example.com."
+    },
+    "socialSecurityNumber": {
+      "required": "Enter your Social Security number.",
+      "invalidFormat": "Enter a valid 9-digit Social Security number.",
+      "allZeros": "Enter a valid Social Security number."
+    },
+    "dateOfBirth": {
+      "required": "Enter your date of birth.",
+      "invalidDate": "Enter a valid date of birth.",
+      "futureDate": "Date of birth must be in the past.",
+      "tooRecent": "Enter a valid date of birth. Trainees must be at least 18 years old."
+    },
+    "trainingFacilityCity": {
+      "required": "Enter the city of your VA training facility."
+    },
+    "trainingFacilityState": {
+      "required": "Select the state of your VA training facility."
+    },
+    "trainingStartDate": {
+      "required": "Enter your VA training start date.",
+      "invalidDate": "Enter a valid training start date."
+    },
+    "trainingEndDate": {
+      "required": "Enter your VA training end date.",
+      "invalidDate": "Enter a valid training end date.",
+      "beforeStartDate": "Training end date must be on or after the training start date."
+    },
+    "priorFederalEmployment": {
+      "required": "Select Yes or No."
+    },
+    "militaryActiveStatus": {
+      "required": "Select Yes or No."
+    },
+    "reservesNationalGuard": {
+      "required": "Select Yes or No."
+    },
+    "branchOfService": {
+      "required": "Select your branch of service."
+    },
+    "citizenshipStatus": {
+      "required": "Select your citizenship status."
+    },
+    "placeOfBirth": {
+      "required": "Enter your place of birth.",
+      "maxLength": "Place of birth must be 100 characters or fewer."
+    },
+    "countryOfCitizenship": {
+      "required": "Enter your country of citizenship.",
+      "maxLength": "Country of citizenship must be 100 characters or fewer."
+    },
+    "immigrantANumber": {
+      "required": "Enter your Alien Registration Number.",
+      "invalidFormat": "Enter a valid Alien Registration Number beginning with the letter A followed by 7 to 9 digits (for example: A012345678)."
+    },
+    "immigrantVisaIssueDate": {
+      "required": "Enter the issue date for your immigrant visa.",
+      "invalidDate": "Enter a valid visa issue date.",
+      "futureDate": "Visa issue date must be in the past."
+    },
+    "immigrantVisaExpirationDate": {
+      "required": "Enter the expiration date for your immigrant visa.",
+      "invalidDate": "Enter a valid visa expiration date.",
+      "beforeIssueDate": "Visa expiration date must be on or after the issue date."
+    },
+    "exchangeVisitorVisaType": {
+      "required": "Enter your visa type (for example: J-1).",
+      "maxLength": "Visa type must be 10 characters or fewer."
+    },
+    "exchangeVisitorVisaNumber": {
+      "required": "Enter your visa number.",
+      "invalidFormat": "Enter a valid 8-digit visa number."
+    },
+    "exchangeVisitorIssueDate": {
+      "required": "Enter the issue date for your visa.",
+      "invalidDate": "Enter a valid visa issue date.",
+      "futureDate": "Visa issue date must be in the past."
+    },
+    "exchangeVisitorExpirationDate": {
+      "required": "Enter the expiration date for your visa.",
+      "invalidDate": "Enter a valid visa expiration date.",
+      "beforeIssueDate": "Visa expiration date must be on or after the issue date."
+    },
+    "otherNonImmigrantVisaType": {
+      "required": "Enter your visa type (for example: H-1B, TN, O-1).",
+      "maxLength": "Visa type must be 10 characters or fewer."
+    },
+    "otherNonImmigrantVisaNumber": {
+      "required": "Enter your visa number.",
+      "maxLength": "Visa number must be 20 characters or fewer."
+    },
+    "otherNonImmigrantIssueDate": {
+      "required": "Enter the issue date for your visa.",
+      "invalidDate": "Enter a valid visa issue date.",
+      "futureDate": "Visa issue date must be in the past."
+    },
+    "otherNonImmigrantExpirationDate": {
+      "required": "Enter the expiration date for your visa.",
+      "invalidDate": "Enter a valid visa expiration date.",
+      "beforeIssueDate": "Visa expiration date must be on or after the issue date."
+    },
+    "hasDS2019": {
+      "required": "Select Yes or No."
+    },
+    "ds2019LastValidationDate": {
+      "required": "Enter the date of your last DS-2019 validation.",
+      "invalidDate": "Enter a valid DS-2019 validation date.",
+      "futureDate": "DS-2019 validation date must be in the past or today."
+    },
+    "currentLicenseName": {
+      "required": "Enter the name and type of your license, certification, or registration.",
+      "maxLength": "License name must be 200 characters or fewer."
+    },
+    "currentLicenseNumber": {
+      "required": "Enter your license, certification, or registration number.",
+      "maxLength": "License number must be 50 characters or fewer."
+    },
+    "currentLicenseState": {
+      "required": "Select the state that issued your license."
+    },
+    "currentLicenseExpirationDate": {
+      "required": "Enter the expiration date for this license, certification, or registration.",
+      "invalidDate": "Enter a valid expiration date.",
+      "expiredWarning": "The expiration date you entered is in the past. If this license is still active, verify the date and re-enter it. If the license is expired, consider whether it should be listed in the Prior Licenses section instead."
+    },
+    "priorLicenseName": {
+      "required": "Enter the name and type of your prior license, certification, or registration.",
+      "maxLength": "License name must be 200 characters or fewer."
+    },
+    "priorLicenseNumber": {
+      "required": "Enter your prior license, certification, or registration number.",
+      "maxLength": "License number must be 50 characters or fewer."
+    },
+    "priorLicenseState": {
+      "required": "Select the state that issued this prior license."
+    },
+    "priorLicenseExpirationDate": {
+      "required": "Enter the expiration date for this prior license, certification, or registration.",
+      "invalidDate": "Enter a valid expiration date."
+    },
+    "npi": {
+      "invalidFormat": "NPI must be exactly 10 digits.",
+      "invalidCheckDigit": "Enter a valid NPI number. Check the number on your NPI documentation."
+    },
+    "licenseActionHistory": {
+      "required": "Select Yes or No."
+    },
+    "privilegeActionHistory": {
+      "required": "Select Yes or No."
+    },
+    "licenseAdverseExplanation": {
+      "required": "You must provide an explanation because you answered 'Yes' to a question about license, certification, registration, or clinical privilege actions.",
+      "tooShort": "Your explanation must be at least 50 characters. Provide a complete description of the circumstances.",
+      "maxLength": "Your explanation must be 4,000 characters or fewer. If you need more space, continue your explanation in the Additional Remarks section."
+    },
+    "educationSchoolName": {
+      "required": "Enter the name of the school or program.",
+      "maxLength": "School name must be 200 characters or fewer."
+    },
+    "educationCity": {
+      "required": "Enter the city where the school is located.",
+      "maxLength": "City must be 100 characters or fewer."
+    },
+    "educationState": {
+      "required": "Enter the state or country where the school is located."
+    },
+    "educationStartDate": {
+      "required": "Enter the start date for this school or program.",
+      "invalidDate": "Enter a valid start date.",
+      "futureDate": "Start date must be in the past."
+    },
+    "educationCompletionDate": {
+      "required": "Enter the completion date or expected completion date for this school or program.",
+      "invalidDate": "Enter a valid completion date.",
+      "beforeStartDate": "Completion date must be on or after the start date."
+    },
+    "educationDegree": {
+      "required": "Enter the diploma, degree, or certificate awarded or in progress.",
+      "maxLength": "Degree or certificate name must be 100 characters or fewer."
+    },
+    "educationMajor": {
+      "required": "Enter your major field of study.",
+      "maxLength": "Major field of study must be 100 characters or fewer."
+    },
+    "isInternationalMedicalGraduate": {
+      "required": "Select Yes or No."
+    },
+    "ecfmgCertificateNumber": {
+      "required": "Enter your ECFMG certificate number.",
+      "maxLength": "ECFMG certificate number must be 20 characters or fewer."
+    },
+    "ecfmgCertificateDate": {
+      "required": "Enter the date on your ECFMG certificate.",
+      "invalidDate": "Enter a valid ECFMG certificate date.",
+      "futureDate": "ECFMG certificate date must be in the past."
+    },
+    "trainingInstitutionName": {
+      "required": "Enter the name of the hospital or institution.",
+      "maxLength": "Institution name must be 200 characters or fewer."
+    },
+    "trainingCity": {
+      "required": "Enter the city where the training took place.",
+      "maxLength": "City must be 100 characters or fewer."
+    },
+    "trainingStateCountry": {
+      "required": "Enter the state or country where the training took place."
+    },
+    "trainingSpecialty": {
+      "required": "Enter the specialty for this training program.",
+      "maxLength": "Specialty must be 100 characters or fewer."
+    },
+    "trainingStartDate": {
+      "required": "Enter the start date for this training program.",
+      "invalidDate": "Enter a valid start date.",
+      "futureDate": "Training start date must be in the past."
+    },
+    "trainingCompletionDate": {
+      "required": "Enter the completion date or expected completion date for this training program.",
+      "invalidDate": "Enter a valid completion date.",
+      "beforeStartDate": "Completion date must be on or after the start date."
+    },
+    "trainingMonthsCompleted": {
+      "required": "Enter the number of months completed in this training program.",
+      "invalidFormat": "Enter a whole number of months.",
+      "outOfRange": "Enter a number between 0 and 120."
+    },
+    "medicaidFraudHistory": {
+      "required": "Select Yes or No."
+    },
+    "malpracticeHistory": {
+      "required": "Select Yes or No."
+    },
+    "adverseQuestionsExplanation": {
+      "required": "You must provide an explanation because you answered 'Yes' to a question about Medicare or Medicaid fraud or malpractice proceedings.",
+      "tooShort": "Your explanation must be at least 50 characters. Provide a complete description of the circumstances, including all details requested in the form instructions.",
+      "maxLength": "Your explanation must be 4,000 characters or fewer. If you need more space, continue your explanation in the Additional Remarks section."
+    },
+    "generalRemarks": {
+      "maxLength": "Additional remarks must be 4,000 characters or fewer."
+    },
+    "certificationAcknowledgment": {
+      "required": "You must certify that your statements are true, correct, complete, and made in good faith before submitting."
+    },
+    "authorizationClause1": {
+      "required": "You must acknowledge this authorization statement to submit your application."
+    },
+    "authorizationClause2": {
+      "required": "You must acknowledge this authorization statement to submit your application."
+    },
+    "authorizationClause3": {
+      "required": "You must acknowledge this authorization statement to submit your application."
+    },
+    "authorizationClause4": {
+      "required": "You must acknowledge this authorization statement to submit your application."
+    },
+    "authorizationClause5": {
+      "required": "You must acknowledge this authorization statement to submit your application."
+    },
+    "fileUpload": {
+      "fileTooLarge": "The file you selected is too large. Each file must be 25 MB or smaller.",
+      "tooManyFiles": "You can upload a maximum of 5 files.",
+      "invalidFileType": "The file type you selected is not supported. Upload a PDF, JPG, or PNG file.",
+      "uploadFailed": "We could not upload your file. Try again. If the problem continues, try a different file or format."
+    }
+  },
+  "pageErrors": {
+    "pageValidationSummaryHeading": "There are errors on this page",
+    "pageValidationSummaryBody": "Fix the following errors before continuing:",
+    "reviewPageValidationHeading": "Some information is missing or incomplete",
+    "reviewPageValidationBody": "Review the sections below and fix any errors before submitting your application.",
+    "conditionalFieldMissing": "Some required information is missing. Review the sections marked with errors.",
+    "signatureIncomplete": "You must complete both signature steps before submitting your application. Review your certification and authorization."
+  },
+  "submissionErrors": {
+    "networkError": {
+      "heading": "We couldn't submit your application",
+      "body": "We're sorry. There was a problem submitting your Health Professions Trainee Data Collection Form. Your information has been saved. Please try again in a few minutes. If this problem continues, call us at 1-800-827-1000, Monday through Friday, 8:00 a.m. to 9:00 p.m. ET."
+    },
+    "serverError": {
+      "heading": "We couldn't submit your application",
+      "body": "We're sorry. Something went wrong on our end. Your information has been saved. Please try again in a few minutes. If this problem continues, call us at 1-800-827-1000, Monday through Friday, 8:00 a.m. to 9:00 p.m. ET."
+    },
+    "timeout": {
+      "heading": "Your session has timed out",
+      "body": "Your session ended because you were inactive for too long. Your progress has been saved. Sign back in to continue your application where you left off."
+    },
+    "duplicateSubmission": {
+      "heading": "It looks like you already submitted this form",
+      "body": "Our records show that a Health Professions Trainee Data Collection Form may have already been submitted from your account. If you believe this is an error, contact your VA training facility's education coordinator."
+    },
+    "authenticationRequired": {
+      "heading": "You need to sign in to continue",
+      "body": "You must be signed in with a Login.gov account to complete and submit this form. Sign in or create an account to continue. Your progress will be saved."
+    }
+  },
+  "saveInProgressErrors": {
+    "saveError": {
+      "heading": "We couldn't save your progress",
+      "body": "We're sorry. We couldn't save your application at this time. Try saving again in a few minutes. If this problem continues, you can still complete and submit your application without saving, but you'll need to finish in one session."
+    },
+    "loadError": {
+      "heading": "We couldn't load your saved application",
+      "body": "We're sorry. We couldn't load your saved application. You can start a new application or try again. If you start a new application, your previous progress will not be available."
+    },
+    "expiredSession": {
+      "heading": "Your saved application has expired",
+      "body": "Saved applications expire after 60 days of inactivity. Your saved progress is no longer available. Please start a new application."
+    }
+  },
+  "warningMessages": {
+    "licenseExpiredWarning": {
+      "heading": "This license may be expired",
+      "body": "The expiration date you entered is in the past. If this license is still active, verify the expiration date and re-enter it. If the license is expired, consider whether it belongs in the Prior Licenses section instead. You can still continue — the Designated Education Officer will review your license information."
+    },
+    "adverseHistoryYesWarning": {
+      "heading": "Explanation required",
+      "body": "Because you answered 'Yes,' you must provide a detailed written explanation on the next page. Your explanation will be reviewed by the VA Designated Education Officer. You cannot submit this form without the required explanation."
+    },
+    "fraudHistoryYesWarning": {
+      "heading": "Explanation required",
+      "body": "Because you answered 'Yes,' you must provide a detailed written explanation on the next page. Your response will be carefully reviewed as part of the appointment determination process. You cannot submit this form without the required explanation."
+    },
+    "malpracticeHistoryYesWarning": {
+      "heading": "Explanation required",
+      "body": "Because you answered 'Yes,' you must provide a detailed written explanation on the next page. Per the form, your explanation must include the name of the action or proceedings, the date filed, the court or reviewing agency, the status or outcome, and your account of what occurred. You cannot submit this form without the required explanation."
+    },
+    "ecfmgRequiredInfo": {
+      "heading": "ECFMG certificate information required",
+      "body": "Your ECFMG certificate number and date are required. Missing ECFMG information is a common reason applications from international medical school graduates are returned incomplete."
+    },
+    "citizenshipDataCleared": {
+      "heading": "Your visa information has been cleared",
+      "body": "Because you changed your citizenship status, your previously entered visa and immigration information has been removed. If this was a mistake, you can go back and change your citizenship status."
+    },
+    "falseStatementsWarning": {
+      "heading": "Federal law — false statements",
+      "body": "A false statement on any part of your application may be grounds for not hiring you, or for terminating you after you begin work. Also, you may be punished by fine or imprisonment (U.S. Code, Title 18, Section 1001)."
+    }
+  },
+  "confirmationMessages": {
+    "success": {
+      "heading": "Application submitted",
+      "body": "Your Health Professions Trainee Data Collection Form (VA Form 10-2850D) has been submitted successfully."
+    },
+    "nextStepsHeading": "What happens next",
+    "nextSteps": [
+      "The Designated Education Officer (DEO) at your VA training facility will review your application and verify your qualifications against the Trainee Qualifications and Credentials Verification Letter (TQCVL).",
+      "The Medical Center Director at your training facility must approve your appointment before you can begin training.",
+      "Your facility's education office will contact you about your appointment status. If you have questions, contact your VA training facility's education coordinator directly."
+    ],
+    "referenceNumberLabel": "Your confirmation number",
+    "submissionDateLabel": "Date submitted",
+    "printPrompt": "Print or save this page for your records."
+  }
+}
