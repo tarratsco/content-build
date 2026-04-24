@@ -1,0 +1,143 @@
+{
+  "form": "VA Form 10-7959E",
+  "rootUrl": "/health-care/file-10-7959e",
+  "sidebarNav": {
+    "title": "Claim for Miscellaneous Expenses",
+    "links": [
+      {
+        "label": "About VA Form 10-7959E",
+        "url": "/health-care/file-10-7959e",
+        "description": "Overview of the form, who can use it, and how to submit"
+      },
+      {
+        "label": "Submit your claim online",
+        "url": "/health-care/file-10-7959e",
+        "description": "Sign in to start or continue your online claim",
+        "action": true,
+        "actionLabel": "Start your claim"
+      },
+      {
+        "label": "Help and frequently asked questions",
+        "url": "/health-care/file-10-7959e/help",
+        "description": "Answers to common questions about eligibility, expenses, receipts, and what happens after you submit"
+      },
+      {
+        "label": "Download VA Form 10-7959E (PDF)",
+        "url": "https://www.va.gov/find-forms/about-form-10-7959e/",
+        "external": true,
+        "description": "Download the paper form to submit by mail or fax"
+      }
+    ]
+  },
+  "relatedLinks": {
+    "heading": "Related VA resources",
+    "links": [
+      {
+        "label": "Spina Bifida Health Care Benefits Program",
+        "url": "/health-care/family-caregiver-benefits/spina-bifida/",
+        "description": "Learn about eligibility and covered benefits under this program"
+      },
+      {
+        "label": "Children of Women Vietnam Veterans (CWVV) Program",
+        "url": "/health-care/family-caregiver-benefits/children-of-women-vietnam-veterans/",
+        "description": "Learn about eligibility and covered benefits under this program"
+      },
+      {
+        "label": "VA Form 10-7959A — CHAMPVA Claim Form",
+        "url": "https://www.va.gov/find-forms/about-form-10-7959a/",
+        "external": true,
+        "description": "For CHAMPVA beneficiaries — a different program from Spina Bifida and CWVV"
+      },
+      {
+        "label": "VA Beneficiary Travel reimbursement",
+        "url": "/health-care/get-reimbursed-for-travel-pay/",
+        "description": "Travel pay reimbursement for eligible Veterans (separate from this program)"
+      },
+      {
+        "label": "Contact OIVC",
+        "url": "/health-care/file-10-7959e/help#contact",
+        "description": "Call 1-833-930-0816, Monday–Friday, 8:05 a.m.–6:30 p.m. ET"
+      }
+    ]
+  },
+  "formSteps": {
+    "heading": "Steps to complete this form",
+    "description": "You can save your progress and come back later if you're signed in.",
+    "steps": [
+      {
+        "stepNumber": 1,
+        "title": "Select your program",
+        "slug": "program-selection",
+        "url": "/health-care/file-10-7959e/program-selection",
+        "description": "Identify whether your claim is under the Spina Bifida or CWVV program"
+      },
+      {
+        "stepNumber": 2,
+        "title": "Patient information (Section I)",
+        "slug": "patient-information",
+        "url": "/health-care/file-10-7959e/patient-information",
+        "description": "Enter the beneficiary's name, Social Security number, date of birth, address, and phone number"
+      },
+      {
+        "stepNumber": 3,
+        "title": "Sponsor information (Section II)",
+        "slug": "sponsor-information",
+        "url": "/health-care/file-10-7959e/sponsor-information",
+        "description": "Enter the qualifying Veteran parent's name and Social Security number"
+      },
+      {
+        "stepNumber": 4,
+        "title": "Claim type",
+        "slug": "claim-type",
+        "url": "/health-care/file-10-7959e/claim-type",
+        "description": "Select the types of expenses you are claiming"
+      },
+      {
+        "stepNumber": 5,
+        "title": "Travel information (Section III — if claiming travel)",
+        "slug": "travel",
+        "url": "/health-care/file-10-7959e/travel-provider-certification",
+        "description": "Enter provider certification, travel dates and routes, attendant information, and expense amounts",
+        "conditional": true,
+        "conditionalNote": "This section is required only if you selected travel expenses on the previous step"
+      },
+      {
+        "stepNumber": 6,
+        "title": "Expenses and receipts",
+        "slug": "travel-miscellaneous-expenses",
+        "url": "/health-care/file-10-7959e/travel-miscellaneous-expenses",
+        "description": "Enter expense amounts and upload your receipts"
+      },
+      {
+        "stepNumber": 7,
+        "title": "Certification and signature (Section IV)",
+        "slug": "certification",
+        "url": "/health-care/file-10-7959e/certification-signer",
+        "description": "Certify that the information you provided is correct and sign the claim"
+      },
+      {
+        "stepNumber": 8,
+        "title": "Review and submit",
+        "slug": "review-and-submit",
+        "url": "/health-care/file-10-7959e/review-and-submit",
+        "description": "Review all your information and submit your claim"
+      }
+    ]
+  },
+  "contactBlock": {
+    "heading": "Need help?",
+    "phone": "1-833-930-0816",
+    "phoneLabel": "OIVC",
+    "hours": "Monday–Friday, 8:05 a.m.–6:30 p.m. ET",
+    "fax": "1-303-331-7807",
+    "faxNote": "For paper or fax submissions only",
+    "mail": {
+      "office": "VHA Office of Integrated Veteran Care",
+      "poBox": "P.O. Box 400",
+      "city": "Spring City",
+      "state": "PA",
+      "zip": "19475"
+    },
+    "additionalNote": "If you submitted a paper form and want to confirm it was received, call the number above. There is currently no online submission tracking for paper claims."
+  }
+}
