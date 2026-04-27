@@ -1,0 +1,153 @@
+{
+  "_comment": "VA Form 40-1330M — Sidebar navigation for headstone/marker request pages",
+  "_version": "0.1",
+
+  "sectionTitle": "Burials and memorials",
+  "sectionPath": "/burials-memorials/",
+
+  "sidebarNav": [
+    {
+      "label": "Burials and memorials",
+      "path": "/burials-memorials/",
+      "expanded": true,
+      "children": [
+        {
+          "label": "Burial benefits for Veterans",
+          "path": "/burials-memorials/veterans-burial-allowance/",
+          "expanded": false
+        },
+        {
+          "label": "Pre-need burial eligibility",
+          "path": "/burials-memorials/pre-need-eligibility/",
+          "expanded": false
+        },
+        {
+          "label": "Schedule a burial in a VA national cemetery",
+          "path": "/burials-memorials/schedule-a-burial/",
+          "expanded": false
+        },
+        {
+          "label": "Memorial items",
+          "path": "/burials-memorials/memorial-items/",
+          "expanded": true,
+          "children": [
+            {
+              "label": "Headstones, markers, and medallions",
+              "path": "/burials-memorials/memorial-items/headstones-markers-medallions/",
+              "expanded": true,
+              "children": [
+                {
+                  "label": "Request a headstone or marker — active duty / Guard / Reserve",
+                  "path": "/burials-memorials/headstone-marker-active-duty/",
+                  "current": true,
+                  "expanded": true,
+                  "children": [
+                    {
+                      "label": "Start your request",
+                      "path": "/burials-memorials/headstone-marker-active-duty/",
+                      "ariaLabel": "Start VA Form 40-1330M — request a government headstone or marker"
+                    },
+                    {
+                      "label": "Help and FAQs",
+                      "path": "/burials-memorials/headstone-marker-active-duty/help/"
+                    }
+                  ]
+                },
+                {
+                  "label": "Request a headstone or marker — discharged Veterans (VA Form 40-1330)",
+                  "path": "/find-forms/about-form-40-1330/"
+                },
+                {
+                  "label": "Request a government medallion",
+                  "path": "/burials-memorials/memorial-items/headstones-markers-medallions/"
+                }
+              ]
+            },
+            {
+              "label": "Burial flags",
+              "path": "/burials-memorials/memorial-items/burial-flags/"
+            },
+            {
+              "label": "Presidential Memorial Certificates",
+              "path": "/burials-memorials/memorial-items/presidential-memorial-certificates/"
+            }
+          ]
+        },
+        {
+          "label": "What to do when a Veteran dies",
+          "path": "/burials-memorials/what-to-do-when-a-veteran-dies/"
+        }
+      ]
+    }
+  ],
+
+  "relatedLinks": {
+    "heading": "Related forms",
+    "links": [
+      {
+        "label": "VA Form 40-1330 — Headstone or marker for a discharged Veteran",
+        "path": "/find-forms/about-form-40-1330/",
+        "external": false
+      },
+      {
+        "label": "VA Form 40-10007 — Pre-need burial eligibility",
+        "path": "/find-forms/about-form-40-10007/",
+        "external": false
+      },
+      {
+        "label": "VA Form 21P-530EZ — Burial benefits",
+        "path": "/find-forms/about-form-21p-530ez/",
+        "external": false
+      },
+      {
+        "label": "VA Form 21-2008 — Burial flag",
+        "path": "/find-forms/about-form-21-2008/",
+        "external": false
+      }
+    ]
+  },
+
+  "findAFormEntry": {
+    "formNumber": "VA40-1330M",
+    "formTitle": "Claim for Standard Government Headstone or Marker",
+    "formSubtitle": "For active duty service members and qualifying National Guard/Reserve members buried in private cemeteries",
+    "onlineTool": {
+      "label": "Request a government headstone or marker online",
+      "path": "/burials-memorials/headstone-marker-active-duty/"
+    },
+    "pdfDownload": {
+      "label": "Download VA Form 40-1330M (PDF)",
+      "path": "/find-forms/about-form-40-1330m/"
+    },
+    "relatedForms": [
+      {
+        "formNumber": "VA40-1330",
+        "label": "Claim for Standard Government Headstone or Marker (discharged Veterans)",
+        "path": "/find-forms/about-form-40-1330/"
+      }
+    ]
+  },
+
+  "breadcrumbs": [
+    {
+      "name": "Home",
+      "path": "/"
+    },
+    {
+      "name": "Burials and memorials",
+      "path": "/burials-memorials/"
+    },
+    {
+      "name": "Memorial items",
+      "path": "/burials-memorials/memorial-items/"
+    },
+    {
+      "name": "Headstones, markers, and medallions",
+      "path": "/burials-memorials/memorial-items/headstones-markers-medallions/"
+    },
+    {
+      "name": "Request a government headstone or marker — active duty / Guard / Reserve",
+      "path": "/burials-memorials/headstone-marker-active-duty/"
+    }
+  ]
+}

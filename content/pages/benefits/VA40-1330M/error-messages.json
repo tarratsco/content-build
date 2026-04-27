@@ -1,0 +1,324 @@
+{
+  "_comment": "VA Form 40-1330M — VA40-1330M Headstone/Marker Request — Error Messages",
+  "_version": "0.1",
+  "_status": "draft — all messages must be reviewed by VA plain language team and NCA program office before launch",
+
+  "fieldValidation": {
+
+    "serviceStatusAtDeath": {
+      "required": "Select the service member's status at the time of death to continue."
+    },
+
+    "guardReserveQualifyingCircumstance": {
+      "required": "Select the qualifying circumstance that applies to this service member to continue."
+    },
+
+    "submitterRole": {
+      "required": "Select your role to continue."
+    },
+
+    "applicantFirstName": {
+      "required": "Enter your first name.",
+      "pattern": "Your first name can only include letters, hyphens, apostrophes, and spaces.",
+      "maxlength": "Your first name must be 30 characters or fewer."
+    },
+
+    "applicantMiddleName": {
+      "pattern": "Your middle name can only include letters, hyphens, apostrophes, and spaces.",
+      "maxlength": "Your middle name must be 30 characters or fewer."
+    },
+
+    "applicantLastName": {
+      "required": "Enter your last name.",
+      "pattern": "Your last name can only include letters, hyphens, apostrophes, and spaces.",
+      "maxlength": "Your last name must be 30 characters or fewer."
+    },
+
+    "applicantPhone": {
+      "required": "Enter your daytime phone number.",
+      "pattern": "Enter a valid 10-digit U.S. phone number, like 2125551234."
+    },
+
+    "applicantEmail": {
+      "required": "Enter your email address.",
+      "pattern": "Enter a valid email address, like name@example.com."
+    },
+
+    "applicantAddressStreet": {
+      "required": "Enter a street address."
+    },
+
+    "applicantAddressCity": {
+      "required": "Enter a city."
+    },
+
+    "applicantAddressState": {
+      "required": "Select a state."
+    },
+
+    "applicantAddressZip": {
+      "required": "Enter a ZIP code.",
+      "pattern": "Enter a valid 5-digit ZIP code, like 20420."
+    },
+
+    "relationshipToDecedent": {
+      "required": "Select your relationship to the deceased service member."
+    },
+
+    "relationshipOtherDescription": {
+      "required": "Describe your relationship to the service member.",
+      "maxlength": "Your description must be 100 characters or fewer."
+    },
+
+    "authorizationDocument": {
+      "required": "Upload your authorization document. If you are not the next of kin, you must provide written authorization to submit this request.",
+      "invalidFileType": "The file you uploaded isn't an accepted format. Upload your authorization document as a PDF, JPG, or PNG file.",
+      "fileTooLarge": "The file you uploaded is too large. Upload a file that's smaller than the size limit shown on the upload screen.",
+      "uploadFailed": "We couldn't upload your file. Try again. If the problem continues, check that your file isn't corrupted or try a different format."
+    },
+
+    "decedentFirstName": {
+      "required": "Enter the service member's first name as it appears on their service records.",
+      "pattern": "The first name can only include letters, hyphens, apostrophes, and spaces.",
+      "maxlength": "The first name must be 30 characters or fewer."
+    },
+
+    "decedentMiddleName": {
+      "pattern": "The middle name can only include letters, hyphens, apostrophes, and spaces.",
+      "maxlength": "The middle name must be 30 characters or fewer."
+    },
+
+    "decedentLastName": {
+      "required": "Enter the service member's last name as it appears on their service records.",
+      "pattern": "The last name can only include letters, hyphens, apostrophes, and spaces.",
+      "maxlength": "The last name must be 30 characters or fewer."
+    },
+
+    "decedentSSN": {
+      "required": "Enter the service member's Social Security number.",
+      "pattern": "Enter a valid 9-digit Social Security number."
+    },
+
+    "decedentDateOfBirth": {
+      "required": "Enter the service member's date of birth.",
+      "invalidDate": "Enter a valid date of birth. Use a real month, day, and year.",
+      "futureDate": "The date of birth can't be in the future.",
+      "afterDeathDate": "The date of birth must be before the date of death."
+    },
+
+    "decedentDateOfDeath": {
+      "required": "Enter the service member's date of death.",
+      "invalidDate": "Enter a valid date of death. Use a real month, day, and year.",
+      "futureDate": "The date of death can't be in the future.",
+      "beforeBirthDate": "The date of death must be after the date of birth."
+    },
+
+    "branchOfService": {
+      "required": "Select the branch of service."
+    },
+
+    "rankAtDeath": {
+      "required": "Enter the service member's military rank or rating at the time of death.",
+      "maxlength": "The rank must be 50 characters or fewer.",
+      "pattern": "The rank can only include letters, spaces, hyphens, and periods."
+    },
+
+    "serviceEntryDate": {
+      "required": "Enter the date military service began.",
+      "invalidDate": "Enter a valid date military service began. Use a real month, day, and year.",
+      "futureDate": "The date military service began can't be in the future.",
+      "afterDeathDate": "The date military service began must be before the date of death."
+    },
+
+    "cityOfDeath": {
+      "required": "Enter the city or location where the service member died."
+    },
+
+    "countryOfDeath": {
+      "required": "Select the country where the service member died."
+    },
+
+    "stateOfDeath": {
+      "required": "Select the state where the service member died."
+    },
+
+    "cemeteryName": {
+      "required": "Enter the name of the cemetery.",
+      "maxlength": "The cemetery name must be 100 characters or fewer."
+    },
+
+    "cemeteryStreet": {
+      "required": "Enter the cemetery's street address. The headstone or marker will be delivered to this address."
+    },
+
+    "cemeteryCity": {
+      "required": "Enter the city where the cemetery is located."
+    },
+
+    "cemeteryState": {
+      "required": "Select the state where the cemetery is located."
+    },
+
+    "cemeteryZip": {
+      "required": "Enter the cemetery's ZIP code.",
+      "pattern": "Enter a valid 5-digit ZIP code, like 20420."
+    },
+
+    "cemeteryContactName": {
+      "required": "Enter the name of the contact person at the cemetery. This person will receive delivery of the headstone or marker.",
+      "maxlength": "The contact name must be 100 characters or fewer."
+    },
+
+    "cemeteryContactPhone": {
+      "required": "Enter the cemetery contact's phone number.",
+      "pattern": "Enter a valid 10-digit phone number, like 2125551234."
+    },
+
+    "existingMarkerPresent": {
+      "required": "Tell us whether there is already a headstone, marker, or monument at this grave."
+    },
+
+    "markerType": {
+      "required": "Select the type of headstone or marker you're requesting."
+    },
+
+    "emblemOfBelief": {
+      "invalidOption": "Select an emblem from the approved list, or select 'No emblem.' If you want an emblem that's not on the list, contact NCA before submitting."
+    },
+
+    "personalInscription": {
+      "maxlength": "Your personal inscription is too long. Shorten it to fit within the character limit shown on this page.",
+      "pattern": "Your inscription contains characters that aren't allowed. Use only letters, numbers, spaces, hyphens, and periods."
+    },
+
+    "deathCertificateUpload": {
+      "required": "Upload a copy of the death certificate to continue.",
+      "invalidFileType": "The file you uploaded isn't an accepted format. Upload the death certificate as a PDF, JPG, or PNG file.",
+      "fileTooLarge": "The file you uploaded is too large. Upload a file that's smaller than the size limit shown on the upload screen.",
+      "uploadFailed": "We couldn't upload your file. Try again. If the problem continues, try a different file format or check that your file isn't corrupted.",
+      "virusScanFailed": "We couldn't verify this file is safe to upload. Try a different copy of the document."
+    },
+
+    "ddForm1300Upload": {
+      "required": "Upload a copy of DD Form 1300 (Report of Casualty) to continue. If you don't have it yet, save your progress and return when you do.",
+      "invalidFileType": "The file you uploaded isn't an accepted format. Upload DD Form 1300 as a PDF, JPG, or PNG file.",
+      "fileTooLarge": "The file you uploaded is too large. Upload a file that's smaller than the size limit shown on the upload screen.",
+      "uploadFailed": "We couldn't upload your file. Try again. If the problem continues, try a different file format or check that your file isn't corrupted.",
+      "virusScanFailed": "We couldn't verify this file is safe to upload. Try a different copy of the document."
+    },
+
+    "ngbForm22Upload": {
+      "required": "Upload a copy of NGB Form 22 or an equivalent Guard/Reserve service record to continue. If you don't have it yet, save your progress and return when you do.",
+      "invalidFileType": "The file you uploaded isn't an accepted format. Upload your Guard/Reserve service record as a PDF, JPG, or PNG file.",
+      "fileTooLarge": "The file you uploaded is too large. Upload a file that's smaller than the size limit shown on the upload screen.",
+      "uploadFailed": "We couldn't upload your file. Try again. If the problem continues, try a different file format or check that your file isn't corrupted.",
+      "virusScanFailed": "We couldn't verify this file is safe to upload. Try a different copy of the document."
+    },
+
+    "additionalDocumentsUpload": {
+      "invalidFileType": "The file you uploaded isn't an accepted format. Upload additional documents as PDF, JPG, or PNG files.",
+      "fileTooLarge": "The file you uploaded is too large. Upload a file that's smaller than the size limit shown on the upload screen.",
+      "uploadFailed": "We couldn't upload your file. Try again. If the problem continues, try a different file format or check that your file isn't corrupted.",
+      "virusScanFailed": "We couldn't verify this file is safe to upload. Try a different copy of the document."
+    },
+
+    "certificationAttestation": {
+      "required": "You must check this box to certify that your information is correct before you can continue."
+    },
+
+    "uspsAddressValidation": {
+      "suggestionAvailable": "We found a similar address. Review the suggestion below and select the address you want to use.",
+      "validationUnavailable": "We couldn't verify this address right now. Make sure it's correct before continuing — the headstone or marker will be shipped to the cemetery address you enter."
+    }
+  },
+
+  "pageLevel": {
+
+    "eligibilityScreener": {
+      "missingSelection": "Answer all required questions before continuing."
+    },
+
+    "chapterPage": {
+      "missingRequiredFields": "Some required information is missing or incorrect. Review the fields marked with an error and make corrections before continuing."
+    },
+
+    "reviewAndSubmit": {
+      "missingCertification": "You must certify your information before submitting. Go back to the certification page and check the box.",
+      "generalError": "We couldn't submit your request. Check that all required fields are filled in and try again."
+    }
+  },
+
+  "submission": {
+
+    "submissionFailed": {
+      "heading": "We couldn't submit your request",
+      "body": "Something went wrong on our end. Your information was not submitted. Try again in a few minutes. If the problem continues, you can submit using the paper form.",
+      "paperFormLink": "/find-forms/about-form-40-1330m/",
+      "paperFormLinkText": "Download VA Form 40-1330M (PDF)",
+      "retryButtonText": "Try again"
+    },
+
+    "submissionTimeout": {
+      "heading": "Your request is taking longer than expected",
+      "body": "This is taking longer than usual. Your request may or may not have been submitted. Do not submit again right now. Wait a few minutes, then check your email for a confirmation. If you don't receive a confirmation within 24 hours, call NCA at 1-800-535-1117."
+    },
+
+    "submissionDuplicate": {
+      "heading": "A request may already exist for this grave",
+      "body": "Our records show that a government headstone or marker may have already been requested or delivered for this grave. Submitting a duplicate request may delay processing. If you believe this is an error, call NCA at 1-800-535-1117 before submitting."
+    }
+  },
+
+  "saveInProgress": {
+
+    "saveFailed": {
+      "heading": "We couldn't save your progress",
+      "body": "Something went wrong and your progress wasn't saved. Try saving again. If the problem continues, don't close this tab — your answers are still here."
+    },
+
+    "sessionTimeout": {
+      "heading": "Your session is about to expire",
+      "body": "For your security, your session will expire in 5 minutes due to inactivity. Select 'Continue session' to keep working, or 'Save and sign out' to save your progress and come back later.",
+      "continueButtonText": "Continue session",
+      "saveAndSignOutButtonText": "Save and sign out"
+    },
+
+    "sessionExpired": {
+      "heading": "Your session has expired",
+      "body": "Your session expired due to inactivity. Sign back in to continue where you left off. Your progress was saved.",
+      "signInButtonText": "Sign in to continue"
+    },
+
+    "loadFailed": {
+      "heading": "We couldn't load your saved request",
+      "body": "We had trouble loading your saved information. Try refreshing the page. If the problem continues, call the VA.gov help desk at 1-800-698-2411 (TTY: 711), Monday through Friday, 8:00 a.m. to 8:00 p.m. ET."
+    }
+  },
+
+  "fileUpload": {
+
+    "scanning": "Checking your file for safety. This may take a moment.",
+    "uploadSuccess": "Your file has been uploaded successfully.",
+    "uploadInProgress": "Uploading your file. Please wait.",
+    "removeFileConfirm": "Are you sure you want to remove this file? You'll need to upload it again if you change your mind."
+  },
+
+  "exitRamps": {
+
+    "wrongForm": {
+      "heading": "You may need a different form",
+      "body": "VA Form 40-1330M is for service members who died while on active duty or qualifying National Guard or Reserve service. Because the service member you're requesting a marker for was discharged before they died, use VA Form 40-1330 instead.",
+      "linkText": "Get VA Form 40-1330",
+      "linkUrl": "/find-forms/about-form-40-1330/"
+    },
+
+    "notEligible": {
+      "heading": "This service member may not be eligible for this benefit through this form",
+      "body": "Based on your answers, this service member may not meet the qualifying criteria for a government headstone or marker through VA Form 40-1330M. We encourage you to contact NCA or a Veterans Service Organization for help understanding eligibility options.",
+      "ncaPhone": "1-800-535-1117",
+      "nceHours": "Monday through Friday, 8:00 a.m. to 5:30 p.m. ET",
+      "vsoLinkText": "Find a VSO representative",
+      "vsoLinkUrl": "/get-help-from-accredited-representative/"
+    }
+  }
+}
