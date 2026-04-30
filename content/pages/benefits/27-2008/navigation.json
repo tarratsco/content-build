@@ -1,0 +1,250 @@
+{
+  "_comment": "Sidebar navigation configuration for VA Form 27-2008 — Burial Flag Application",
+  "_formId": "27-2008",
+  "_rootUrl": "/burials-memorials/memorial-items/burial-flag",
+  "_lastUpdated": "2024-05-01",
+  "_section": "burials-memorials",
+
+  "sectionLabel": "Burials and memorials",
+  "sectionUrl": "/burials-memorials/",
+
+  "currentPageSection": {
+    "label": "Memorial items",
+    "url": "/burials-memorials/memorial-items/"
+  },
+
+  "sidebarNav": {
+    "heading": "Memorial items",
+    "items": [
+      {
+        "label": "Overview of memorial items",
+        "url": "/burials-memorials/memorial-items/",
+        "current": false,
+        "expanded": false
+      },
+      {
+        "label": "Apply for a burial flag",
+        "url": "/burials-memorials/memorial-items/burial-flag/",
+        "current": true,
+        "expanded": true,
+        "children": [
+          {
+            "label": "Introduction",
+            "url": "/burials-memorials/memorial-items/burial-flag/introduction",
+            "current": false
+          },
+          {
+            "label": "Help with this form",
+            "url": "/burials-memorials/memorial-items/burial-flag/help/",
+            "current": false
+          }
+        ]
+      },
+      {
+        "label": "Presidential Memorial Certificates",
+        "url": "/burials-memorials/memorial-items/presidential-memorial-certificates/",
+        "current": false,
+        "expanded": false
+      },
+      {
+        "label": "Grave markers and headstones",
+        "url": "/burials-memorials/memorial-items/headstones-markers-medallions/",
+        "current": false,
+        "expanded": false
+      }
+    ]
+  },
+
+  "relatedLinks": {
+    "heading": "Related VA benefits",
+    "items": [
+      {
+        "label": "Plan a burial",
+        "url": "/burials-memorials/plan-a-burial/",
+        "description": "Learn about burial benefits and how to schedule a burial at a VA national cemetery."
+      },
+      {
+        "label": "Burial allowance",
+        "url": "/burials-memorials/veterans-burial-allowance/",
+        "description": "VA may pay a burial allowance to help cover funeral costs for eligible Veterans."
+      },
+      {
+        "label": "VA Form 21P-530EZ — Burial benefits",
+        "url": "/burials-memorials/veterans-burial-allowance/",
+        "description": "Apply for burial allowance and related burial benefits."
+      },
+      {
+        "label": "Get help from a VSO",
+        "url": "/get-help-from-accredited-representative/",
+        "description": "A Veterans Service Organization representative can help you complete and submit VA forms at no cost."
+      },
+      {
+        "label": "Find a VA regional office",
+        "url": "/find-locations/",
+        "description": "Locate your nearest VA regional office for in-person help."
+      }
+    ]
+  },
+
+  "formChapters": [
+    {
+      "chapterIndex": 1,
+      "title": "Introduction",
+      "slug": "introduction",
+      "url": "/burials-memorials/memorial-items/burial-flag/introduction",
+      "description": "What to expect and what you will need to complete the application"
+    },
+    {
+      "chapterIndex": 2,
+      "title": "Who is submitting",
+      "slug": "applicant-type",
+      "url": "/burials-memorials/memorial-items/burial-flag/applicant-type",
+      "description": "Your role as the person submitting this application"
+    },
+    {
+      "chapterIndex": 3,
+      "title": "Veteran information",
+      "slug": "veteran-information",
+      "url": "/burials-memorials/memorial-items/burial-flag/veteran-information/name",
+      "description": "Name, identification numbers, service history, and key dates",
+      "subpages": [
+        {
+          "title": "Veteran's name",
+          "slug": "name",
+          "url": "/burials-memorials/memorial-items/burial-flag/veteran-information/name"
+        },
+        {
+          "title": "Veteran's identification numbers",
+          "slug": "identification",
+          "url": "/burials-memorials/memorial-items/burial-flag/veteran-information/identification"
+        },
+        {
+          "title": "Military service information",
+          "slug": "service",
+          "url": "/burials-memorials/memorial-items/burial-flag/veteran-information/service"
+        },
+        {
+          "title": "Dates of birth, death, and burial",
+          "slug": "dates",
+          "url": "/burials-memorials/memorial-items/burial-flag/veteran-information/dates"
+        },
+        {
+          "title": "Place of burial",
+          "slug": "burial-place",
+          "url": "/burials-memorials/memorial-items/burial-flag/veteran-information/burial-place"
+        }
+      ]
+    },
+    {
+      "chapterIndex": 4,
+      "title": "Eligibility",
+      "slug": "eligibility",
+      "url": "/burials-memorials/memorial-items/burial-flag/eligibility/documentation-check",
+      "description": "Documentation and discharge character",
+      "subpages": [
+        {
+          "title": "Documentation",
+          "slug": "documentation-check",
+          "url": "/burials-memorials/memorial-items/burial-flag/eligibility/documentation-check"
+        },
+        {
+          "title": "Discharge character",
+          "slug": "discharge-character",
+          "url": "/burials-memorials/memorial-items/burial-flag/eligibility/discharge-character"
+        },
+        {
+          "title": "Selected Reserve eligibility",
+          "slug": "reserve-guard-check",
+          "url": "/burials-memorials/memorial-items/burial-flag/eligibility/reserve-guard-check",
+          "conditional": true,
+          "conditionalNote": "Shown only when Selected Reserve is selected in Branch of Service"
+        }
+      ]
+    },
+    {
+      "chapterIndex": 5,
+      "title": "Flag recipient",
+      "slug": "flag-recipient",
+      "url": "/burials-memorials/memorial-items/burial-flag/flag-recipient/recipient-info",
+      "description": "Who will receive the burial flag",
+      "subpages": [
+        {
+          "title": "Recipient's name and relationship",
+          "slug": "recipient-info",
+          "url": "/burials-memorials/memorial-items/burial-flag/flag-recipient/recipient-info"
+        },
+        {
+          "title": "Recipient's contact information",
+          "slug": "recipient-address",
+          "url": "/burials-memorials/memorial-items/burial-flag/flag-recipient/recipient-address"
+        }
+      ]
+    },
+    {
+      "chapterIndex": 6,
+      "title": "Your information",
+      "slug": "applicant",
+      "url": "/burials-memorials/memorial-items/burial-flag/applicant/applicant-info",
+      "description": "Your name and address as the person submitting this application"
+    },
+    {
+      "chapterIndex": 7,
+      "title": "Documents",
+      "slug": "documents",
+      "url": "/burials-memorials/memorial-items/burial-flag/documents/upload",
+      "description": "Upload discharge documentation"
+    },
+    {
+      "chapterIndex": 8,
+      "title": "Remarks",
+      "slug": "remarks",
+      "url": "/burials-memorials/memorial-items/burial-flag/remarks",
+      "description": "Additional information or explanation"
+    },
+    {
+      "chapterIndex": 9,
+      "title": "Review and submit",
+      "slug": "review-and-submit",
+      "url": "/burials-memorials/memorial-items/burial-flag/review-and-submit",
+      "description": "Review your application before submitting"
+    },
+    {
+      "chapterIndex": 10,
+      "title": "Confirmation",
+      "slug": "confirmation",
+      "url": "/burials-memorials/memorial-items/burial-flag/confirmation",
+      "description": "Application submitted"
+    }
+  ],
+
+  "contactBlock": {
+    "heading": "Need help with this form?",
+    "items": [
+      {
+        "type": "phone",
+        "label": "Call VA",
+        "value": "1-800-827-1000",
+        "hours": "Monday through Friday, 8:00 a.m. to 9:00 p.m. ET",
+        "tty": "711"
+      },
+      {
+        "type": "online",
+        "label": "Ask VA online",
+        "url": "https://ask.va.gov/",
+        "description": "Send a question through the Ask VA (AVA) portal"
+      },
+      {
+        "type": "mail",
+        "label": "Mail your paper form",
+        "value": "NCA Field Programs Evidence Intake Center\nP.O. Box 5237\nJanesville, WI 53547"
+      }
+    ]
+  },
+
+  "ombInfo": {
+    "ombNumber": "2900-0013",
+    "expDate": "05/31/2027",
+    "resBurden": "15 minutes",
+    "privacyActUrl": "https://www.va.gov/privacy-policy/"
+  }
+}

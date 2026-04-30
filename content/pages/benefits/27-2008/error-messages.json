@@ -1,0 +1,349 @@
+{
+  "_comment": "VA Form 27-2008 — Application for United States Flag for Burial Purposes",
+  "_formId": "27-2008",
+  "_rootUrl": "/burials-memorials/memorial-items/burial-flag",
+  "_lastUpdated": "2024-05-01",
+
+  "fieldValidation": {
+
+    "applicantType": {
+      "required": "Please select who is submitting this application."
+    },
+
+    "veteranFirstName": {
+      "required": "Please enter the Veteran's first name."
+    },
+
+    "veteranLastName": {
+      "required": "Please enter the Veteran's last name."
+    },
+
+    "veteranOtherName": {
+      "maxlength": "The name you entered is too long. Please enter 60 characters or fewer."
+    },
+
+    "vaFileNumber": {
+      "pattern": "Please enter a valid VA file number. A VA file number is 7 to 9 digits.",
+      "hint": "The VA file number appears on previous VA correspondence. It is different from the Veteran's Social Security Number."
+    },
+
+    "socialSecurityNumber": {
+      "pattern": "Please enter a valid 9-digit Social Security Number.",
+      "hint": "Enter the Veteran's Social Security Number in the format XXX-XX-XXXX."
+    },
+
+    "militaryServiceNumber": {
+      "maxlength": "The service number you entered is too long. Please enter 20 characters or fewer."
+    },
+
+    "branchOfService": {
+      "required": "Please select at least one branch of service."
+    },
+
+    "dateEnteredActiveDuty": {
+      "required": "Please enter the date the Veteran entered active duty.",
+      "invalid": "Please enter a valid date the Veteran entered active duty.",
+      "future": "The date entered active duty cannot be in the future.",
+      "afterDeath": "The date entered active duty must be before the Veteran's date of death.",
+      "afterRelease": "The date entered active duty must be before the date the Veteran was released from active duty."
+    },
+
+    "dateReleasedFromActiveDuty": {
+      "required": "Please enter the date the Veteran was released from active duty.",
+      "invalid": "Please enter a valid date the Veteran was released from active duty.",
+      "future": "The date released from active duty cannot be in the future.",
+      "beforeEntry": "The date released from active duty must be after the date the Veteran entered active duty.",
+      "afterDeath": "The date released from active duty must be on or before the Veteran's date of death. If the Veteran died while on active duty, enter the date of death."
+    },
+
+    "dateOfBirth": {
+      "required": "Please enter the Veteran's date of birth.",
+      "invalid": "Please enter a valid date of birth.",
+      "future": "The date of birth cannot be in the future.",
+      "afterDeath": "The date of birth must be before the Veteran's date of death.",
+      "afterEntry": "The date of birth must be before the date the Veteran entered active duty."
+    },
+
+    "dateOfDeath": {
+      "required": "Please enter the Veteran's date of death.",
+      "invalid": "Please enter a valid date of death.",
+      "future": "The date of death cannot be in the future.",
+      "beforeBirth": "The date of death must be after the Veteran's date of birth.",
+      "beforeEntry": "The date of death must be after the date the Veteran entered active duty."
+    },
+
+    "dateOfBurial": {
+      "required": "Please enter the date of burial.",
+      "invalid": "Please enter a valid date of burial.",
+      "beforeDeath": "The date of burial must be on or after the date of death. If you haven't scheduled the burial yet, enter your best estimate of the burial date.",
+      "tooFarFuture": "The burial date you entered seems too far in the future. Please check the date and try again."
+    },
+
+    "cemeteryName": {
+      "required": "Please enter the name of the cemetery or place of burial.",
+      "maxlength": "The cemetery name you entered is too long. Please enter 100 characters or fewer."
+    },
+
+    "burialCity": {
+      "required": "Please enter the city where the burial will take place.",
+      "maxlength": "The city name you entered is too long. Please enter 50 characters or fewer."
+    },
+
+    "burialState": {
+      "required": "Please select a state or territory."
+    },
+
+    "documentationAvailable": {
+      "required": "Please indicate whether you have documentation available to upload."
+    },
+
+    "dischargeCharacter": {
+      "required": "Please indicate the Veteran's discharge character."
+    },
+
+    "reserveEligibilityCriteria": {
+      "required": "Please select at least one criterion that applies to the Veteran's Selected Reserve service.",
+      "noneSelected": "Based on your selections, the Veteran may not be eligible for a burial flag through Selected Reserve service. You may continue your application, but please contact your nearest VA regional office to confirm eligibility before submitting."
+    },
+
+    "flagRecipientName": {
+      "required": "Please enter the full name of the person who will receive the flag.",
+      "maxlength": "The name you entered is too long. Please enter 80 characters or fewer."
+    },
+
+    "flagRecipientRelationship": {
+      "required": "Please select the relationship of the person receiving the flag to the deceased Veteran."
+    },
+
+    "flagRecipientRelationshipOther": {
+      "required": "Please describe the relationship of the person receiving the flag to the deceased Veteran."
+    },
+
+    "flagRecipientStreetAddress": {
+      "required": "Please enter a street address for the person receiving the flag."
+    },
+
+    "flagRecipientCity": {
+      "required": "Please enter a city for the person receiving the flag."
+    },
+
+    "flagRecipientState": {
+      "required": "Please select a state or territory for the person receiving the flag."
+    },
+
+    "flagRecipientZip": {
+      "required": "Please enter a ZIP code for the person receiving the flag.",
+      "pattern": "Please enter a valid 5-digit ZIP code."
+    },
+
+    "flagRecipientPhone": {
+      "pattern": "Please enter a valid 10-digit phone number, including area code."
+    },
+
+    "applicantFirstName": {
+      "required": "Please enter your first name."
+    },
+
+    "applicantLastName": {
+      "required": "Please enter your last name."
+    },
+
+    "applicantStreetAddress": {
+      "required": "Please enter your street address."
+    },
+
+    "applicantCity": {
+      "required": "Please enter your city."
+    },
+
+    "applicantState": {
+      "required": "Please select your state or territory."
+    },
+
+    "applicantZip": {
+      "required": "Please enter your ZIP code.",
+      "pattern": "Please enter a valid 5-digit ZIP code."
+    },
+
+    "applicantRelationship": {
+      "required": "Please select your relationship to the deceased Veteran."
+    },
+
+    "documentUpload": {
+      "required": "Please upload a copy of the Veteran's discharge documentation (such as DD Form 214) before submitting.",
+      "fileType": "The file you selected is not a supported file type. Please upload a PDF, JPG, or PNG file.",
+      "fileSize": "The file you selected is too large. Each file must be 20 MB or smaller.",
+      "uploadFailed": "We couldn't upload that file. Please try again. If the problem continues, try uploading a different file or use a smaller file size.",
+      "virusScan": "We couldn't upload that file because it failed our security check. Please try a different file."
+    },
+
+    "remarks": {
+      "requiredNoDocumentation": "Please explain in the Remarks field why documentation is not available and how you know the Veteran meets the eligibility criteria for a burial flag.",
+      "requiredFriendRecipient": "Because the flag recipient is listed as a friend (not next-of-kin), please explain in the Remarks field why there is no living next-of-kin available.",
+      "requiredOtherRelationship": "Please provide additional information in the Remarks field about the flag recipient's relationship to the deceased Veteran.",
+      "maxlength": "Your remarks are too long. Please enter 1,500 characters or fewer."
+    },
+
+    "certificationAttestation": {
+      "required": "You must check the certification box to confirm your information is true and complete before you can submit this application."
+    },
+
+    "dateSigned": {
+      "required": "Please enter the date you are signing this application.",
+      "invalid": "Please enter a valid date.",
+      "future": "The date signed cannot be a future date.",
+      "tooOld": "The date signed must be within the last 7 days. If you need to update this, please enter today's date."
+    }
+
+  },
+
+  "pageValidation": {
+    "summary": {
+      "heading": "There {count, plural, one {is # error} other {are # errors}} on this page",
+      "body": "Please fix the {count, plural, one {error} other {errors}} listed below before continuing."
+    }
+  },
+
+  "submissionErrors": {
+    "networkError": {
+      "title": "We couldn't submit your application",
+      "body": "We're sorry. Something went wrong on our end when we tried to submit your application. Your information was not sent. Please try again in a few minutes.",
+      "action": "Try again",
+      "altAction": "If this problem continues, you can download and mail the paper form.",
+      "altActionUrl": "https://www.va.gov/find-forms/about-form-27-2008/"
+    },
+    "serverError": {
+      "title": "We couldn't submit your application",
+      "body": "We're sorry. Our system is having technical difficulties right now. Please try again in a few minutes. If the problem continues, call us at 1-800-827-1000 (TTY: 711).",
+      "action": "Try again",
+      "altAction": "Download VA Form 27-2008 (PDF) to submit by mail",
+      "altActionUrl": "https://www.va.gov/find-forms/about-form-27-2008/"
+    },
+    "timeout": {
+      "title": "Your application timed out",
+      "body": "We're sorry. Your application timed out before it was submitted. Your information was not sent. Please try submitting again.",
+      "action": "Try again"
+    },
+    "duplicateDetected": {
+      "title": "A burial flag application may already exist for this Veteran",
+      "body": "Our records show that a burial flag application may have already been submitted for this Veteran. Only one burial flag can be issued for each deceased Veteran. You may continue submitting your application; a VA representative will review it and contact you if there are any questions.",
+      "action": "Continue submitting"
+    },
+    "ineligibleDischarge": {
+      "title": "This application may not be approved",
+      "body": "Based on the information you provided, the Veteran may not be eligible for a burial flag because of the discharge character you indicated. You may still submit this application. VA will make the final eligibility determination.",
+      "action": "Continue submitting",
+      "secondaryAction": "Contact VA to learn more",
+      "secondaryActionUrl": "/find-locations/"
+    }
+  },
+
+  "saveInProgress": {
+    "savedSuccess": {
+      "title": "Your application has been saved",
+      "body": "We saved your application on {date} at {time}. Your progress will be saved for 60 days. Sign in again to continue where you left off."
+    },
+    "saveError": {
+      "title": "We couldn't save your application",
+      "body": "We're sorry. Something went wrong and we couldn't save your progress. Try saving again. If this problem continues, you can complete and submit the application now without saving."
+    },
+    "sessionExpireWarning": {
+      "title": "Your session is about to expire",
+      "body": "You've been inactive for a while. For your security, your session will expire in {minutes} minutes. Select 'Stay on this page' to continue your application. If you leave, any information you haven't saved will be lost."
+    },
+    "sessionExpired": {
+      "title": "Your session has expired",
+      "body": "For your security, your session expired because of inactivity. You'll need to sign in again to continue your application.",
+      "action": "Sign in to continue"
+    },
+    "unauthenticatedNotice": {
+      "title": "You are not signed in",
+      "body": "Because you are not signed in, your progress will not be saved. If you leave this page, you will need to start over. The form takes about 15 minutes to complete. Sign in to save your progress.",
+      "action": "Sign in",
+      "secondaryAction": "Continue without signing in"
+    },
+    "unauthenticatedTimeoutWarning": {
+      "title": "Your information will be lost soon",
+      "body": "For your security, this form will clear in {minutes} minutes because you are not signed in. Please finish and submit your application, or sign in to save your progress.",
+      "action": "Sign in to save your progress",
+      "secondaryAction": "Stay on this page"
+    },
+    "prefillNotice": {
+      "title": "We've pre-filled some of your information",
+      "body": "We filled in some fields using information from your VA profile. Please review all the information carefully. If anything is wrong, you can edit it before you submit."
+    }
+  },
+
+  "fileUpload": {
+    "uploading": "Uploading file…",
+    "uploadSuccess": "File {filename} uploaded successfully.",
+    "uploadError": "We couldn't upload {filename}. Please try again.",
+    "deleteSuccess": "File {filename} has been removed.",
+    "deleteError": "We couldn't remove {filename}. Please try again.",
+    "noFilesUploaded": "No files uploaded yet.",
+    "maxFilesReached": "You've uploaded the maximum number of files (3). Remove a file to upload a different one.",
+    "instructions": "Accepted file types: PDF, JPG, PNG. Maximum file size: 20 MB per file. You may upload up to 3 files."
+  },
+
+  "eligibilityAlerts": {
+    "dishonorableDischarge": {
+      "type": "warning",
+      "headline": "This Veteran may not be eligible for a burial flag",
+      "body": "Veterans with a dishonorable discharge are not eligible for a burial flag under VA Form 27-2008 instructions. You may continue submitting this application. VA will make the final eligibility determination. If you believe the discharge character should be reviewed, contact your nearest VA regional office."
+    },
+    "unknownDischarge": {
+      "type": "info",
+      "headline": "You can still submit this application",
+      "body": "If you don't know the Veteran's discharge character, you can still submit this application. VA will verify eligibility when reviewing your documentation. To get the Veteran's discharge records, contact the National Personnel Records Center (NPRC) at archives.gov/veterans/military-service-records or call 1-866-272-6272."
+    },
+    "reserveMayBeIneligible": {
+      "type": "warning",
+      "headline": "The Veteran may not meet the Selected Reserve eligibility criteria",
+      "body": "Based on your answers, the Veteran may not be eligible for a burial flag through Selected Reserve service. You may still submit your application. VA will make the final eligibility determination. Consider contacting your nearest VA regional office to confirm eligibility."
+    },
+    "noDocumentation": {
+      "type": "warning",
+      "headline": "Please explain in the Remarks field",
+      "body": "When discharge documentation is not available, VA can still issue a flag if a person of established character states they personally know the deceased was a Veteran who meets eligibility criteria. You must explain this in the Remarks section before submitting."
+    },
+    "philippineService": {
+      "type": "info",
+      "headline": "Veterans who served in the Philippine military forces",
+      "body": "Veterans who served in the Philippine military forces under the President's Order of July 26, 1941, may be eligible for a burial flag if they died on or after April 25, 1951. Based on the date of death you entered, please verify eligibility with VA. Include details about the Veteran's service in the Remarks field."
+    },
+    "usphsOrNoaa": {
+      "type": "info",
+      "headline": "VA will review eligibility for this service type",
+      "body": "Veterans who served with the U.S. Public Health Service (USPHS) or the National Oceanic and Atmospheric Administration (NOAA) may be eligible for a burial flag. VA will review your application to confirm eligibility. Please upload documentation of qualifying service."
+    },
+    "friendRecipient": {
+      "type": "info",
+      "headline": "Explain the absence of next-of-kin in the Remarks field",
+      "body": "When a burial flag is requested by a friend rather than a family member, VA will issue the flag to that friend if there is no living next-of-kin. Please explain in the Remarks section that there is no living next-of-kin and describe your relationship to the Veteran."
+    },
+    "funeralDirectorPath": {
+      "type": "info",
+      "headline": "You are submitting as a funeral director",
+      "body": "You are submitting this application on behalf of the Veteran's family. You do not need a VA.gov account to submit. Please enter your funeral home's address as the applicant address."
+    }
+  },
+
+  "confirmationPage": {
+    "title": "Application submitted",
+    "successHeadline": "Your burial flag application has been submitted",
+    "successBody": "Thank you for submitting VA Form 27-2008. VA will review your application and contact you if additional information is needed.",
+    "referenceNumberLabel": "Confirmation number",
+    "referenceNumberNote": "Save this confirmation number for your records.",
+    "emailNotice": "We'll send a confirmation email to the address you provided.",
+    "nextStepsHeading": "What happens next",
+    "nextSteps": [
+      "VA's National Cemetery Administration (NCA) will review your application.",
+      "For complete applications, VA's service standard is 2 business days.",
+      "If VA needs more information, a VA representative will contact you.",
+      "The burial flag will be provided to the person listed as the flag recipient on your application."
+    ],
+    "printLinkText": "Print this confirmation page",
+    "downloadLinkText": "Download your submitted application (PDF)",
+    "paperFormNote": "If you submitted by mail, you can check the status of your application by calling 1-800-827-1000 (TTY: 711)."
+  }
+}
